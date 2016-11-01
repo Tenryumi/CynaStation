@@ -1,101 +1,93 @@
+var/global/datum/sun/sun
+
 /datum/sun
 	var/angle
 	var/dx
 	var/dy
-	var/counter = 20 // to make the vars update during 1st call
-	var/rate
+	var/list/solars // For debugging purposes, references solars_list at the constructor.
+
+	// Replacement for var/counter to force the sun to move every X IC minutes.
+	// To prevent excess server load the server only updates the sun's sight lines by minute(s).
+	// 300 is 30 seconds.
+	var/updatePer = 600
+
+	var/nextTime
+	var/lastAngle = 0
+	var/rotationRate = 1 //A pretty average way of setting up station rotation direction AND absolute speed
 
 /datum/sun/New()
-	rate = rand(75,125)/50 // 75% - 125% of standard rotation
+
+	solars = solars_list
+	nextTime = updatePer
+
+	rotationRate = rand(850, 1150) / 1000 //Slight deviation, no more than 15 %, budget orbital stabilization system
 	if(prob(50))
-		rate = -rate
+		rotationRate = -rotationRate
 
-// calculate the sun's position given the time of day
-//
+/*
+ * Calculate the sun's position given the time of day.
+ */
 /datum/sun/proc/calc_position()
-	counter++
-	if (counter < 20) // 60 seconds, roughly - about a 5deg change
+	var/time = world.time
+	angle = ((rotationRate * time / 100) % 360 + 360) % 360
+
+	if(angle != lastAngle)
+		var/obj/machinery/power/solar/panel/tracker/T
+		for(T in solars_list)
+			if(!T.powernet)
+				solars_list.Remove(T)
+				continue
+
+			T.set_angle(angle)
+		lastAngle = angle
+
+	if(world.time < nextTime)
 		return
-	counter = 0
 
-	angle = ((rate*world.realtime/100)%360 + 360)%360
-	// gives about a 60 minute rotation time
-	// now 45 - 75 minutes, depending on rate
+	nextTime += updatePer
 
-	// Now around 30 - 40 min. An array would sometimes generate zero or close to zero electricity for up to 30 min
-	// of a typical round (~60 min), making solars not so useful.
+	// Now calculate and cache the (dx,dy) increments for line drawing.
+	var/si = sin(angle)
+	var/co = cos(angle)
 
-	// now calculate and cache the (dx,dy) increments for line drawing
-
-	var/s = sin(angle)
-	var/c = cos(angle)
-
-	if(c == 0)
-
+	if(!co)
 		dx = 0
-		dy = s
-
-	else if( abs(s) < abs(c))
-
-		dx = s / abs(c)
-		dy = c / abs(c)
-
+		dy = si
+	else if (abs(si) < abs(co))
+		dx = si / abs(co)
+		dy = co / abs(co)
 	else
-		dx = s/abs(s)
-		dy = c / abs(s)
+		dx = si / abs(si)
+		dy = co / abs(si)
 
+	var/obj/machinery/power/solar/panel/S
 
-	for(var/obj/machinery/power/tracker/T in machines)
-		T.set_angle(angle)
+	for(S in solars_list)
+		if(!S.powernet)
+			solars_list.Remove(S)
 
-	for(var/obj/machinery/power/solar/S in machines)
-		occlusion(S)
+		if(S.control)
+			occlusion(S)
 
+//For a solar panel, trace towards sun to see if we're in shadow.
 
-// for a solar panel, trace towards sun to see if we're in shadow
-
-/datum/sun/proc/occlusion(var/obj/machinery/power/solar/S)
-
-	var/ax = S.x		// start at the solar panel
+/datum/sun/proc/occlusion(const/obj/machinery/power/solar/panel/S)
+	var/ax = S.x //Start at the solar panel.
 	var/ay = S.y
+	var/i
+	var/turf/T
 
-	for(var/i = 1 to 20)		// 20 steps is enough
-		ax += dx	// do step
+	for(i = 1 to 256) //No tiles shall stay unchecked. Since the loop stops when it hit level boundaries or opaque blocks, this can't cause too much problems
+		ax += dx //Do step
 		ay += dy
 
-		var/turf/T = locate( round(ax,0.5),round(ay,0.5),S.z)
+		T = locate(round(ax, 0.5), round(ay, 0.5), S.z)
 
-		if(T.x == 1 || T.x==world.maxx || T.y==1 || T.y==world.maxy)		// not obscured if we reach the edge
+		if(T.x == 1 || T.x == world.maxx || T.y == 1 || T.y == world.maxy) // Not obscured if we reach the edge.
 			break
-
-		if(T.density)			// if we hit a solid turf, panel is obscured
+		if(T.opacity) //Opaque objects block light.
 			S.obscured = 1
 			return
 
-	S.obscured = 0		// if hit the edge or stepped 20 times, not obscured
+	S.obscured = 0 //If hit the edge or stepped 20 times, not obscured.
 	S.update_solar_exposure()
-
-
-//returns the north-zero clockwise angle in degrees, given a direction
-
-/proc/dir2angle(var/D)
-	switch(D)
-		if(NORTH)
-			return 0
-		if(SOUTH)
-			return 180
-		if(EAST)
-			return 90
-		if(WEST)
-			return 270
-		if(NORTHEAST)
-			return 45
-		if(SOUTHEAST)
-			return 135
-		if(NORTHWEST)
-			return 315
-		if(SOUTHWEST)
-			return 225
-		else
-			return null
-

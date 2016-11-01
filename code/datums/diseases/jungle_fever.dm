@@ -1,16 +1,12 @@
-/datum/ailment/disease/jungle_fever
+/datum/disease/jungle_fever
 	name = "Jungle Fever"
 	max_stages = 1
-	cure = "Incurable"
-	associated_reagent = "banana peel"
-	affected_species = list("Monkey")
-
-	stage_act(var/mob/living/carbon/human/affected_mob,var/datum/ailment_data/D)
-		if (..() || !istype(affected_mob))
-			return 1
-
-
-		if (!affected_mob:mutantrace)
-			affected_mob:monkeyize()
-
-		return 0
+	cure = "None"
+	spread = "Bites"
+	spread_type = SPECIAL
+	affected_species = list("Monkey", "Human")
+	curable = 0
+	desc = "monkeys with this disease will bite humans, causing humans to spontaneously mutate into a monkey."
+	severity = "Medium"
+	//stage_prob = 100
+	agent = "Kongey Vibrion M-909"

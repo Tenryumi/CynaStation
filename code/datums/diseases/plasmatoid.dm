@@ -1,9 +1,5 @@
-/datum/ailment/disease/plasmatoid
+/datum/disease/plasmatoid
 	name = "Plasmatoid"
 	max_stages = 4
-	spread = "Non-Contagious"
-	cure = "Mutadone"
-	reagentcure = list("mutadone")
-	recureprob = 15
-	associated_reagent = "liquid plasma"
+	cure = "None"
 	affected_species = list("Monkey", "Human")

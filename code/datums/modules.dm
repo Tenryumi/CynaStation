@@ -12,7 +12,7 @@
 /datum/moduletypes
 	var/list/modcount = list()	// assoc list of the count of modules for a type
 
-//
+
 var/list/modules = list(			// global associative list
 "/obj/machinery/power/apc" = "card_reader,power_control,id_auth,cell_power,cell_charge")
 
@@ -24,7 +24,8 @@ var/list/modules = list(			// global associative list
 	var/mneed = mods.inmodlist(type)		// find if this type has modules defined
 
 	if(!mneed)		// not found in module list?
-		qdel(src)	// delete self, thus ending proc
+		qdel(src)	// used to delete self, thus ending proc
+		return
 
 	var/needed = mods.getbitmask(type)		// get a bitmask for the number of modules in this object
 	status = needed
@@ -58,5 +59,3 @@ var/list/modules = list(			// global associative list
 	modcount["[type]"] = num
 
 	return 2**num-1
-
-

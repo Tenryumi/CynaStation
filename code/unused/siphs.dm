@@ -1,15 +1,9 @@
 /obj/machinery/atmoalter/siphs/New()
 	..()
-	gas = unpool(/datum/gas_mixture)
+	src.gas = new /datum/gas_mixture()
 
 	return
 
-/obj/machinery/atmoalter/siphs/disposing()
-	if(gas)
-		pool(gas)
-		gas = null
-	..()	
-	
 /obj/machinery/atmoalter/siphs/proc/releaseall()
 	src.t_status = 1
 	src.t_per = max_valve
@@ -64,6 +58,7 @@
 	*/ //TODO: FIX
 
 /obj/machinery/atmoalter/siphs/proc/setstate()
+
 
 	if(stat & NOPOWER)
 		icon_state = "siphon:0"
@@ -142,7 +137,8 @@
 
 /obj/machinery/atmoalter/siphs/scrubbers/process()
 	/*
-	if(stat & NOPOWER) return
+	if(stat & NOPOWER)
+		return
 
 	if(src.gas.temperature >= 3000)
 		src.melt()
@@ -159,7 +155,8 @@
 			T = null
 		switch(src.t_status)
 			if(1.0)
-				if( !portable() ) use_power(50, ENVIRON)
+				if( !portable() )
+					use_power(50, ENVIRON)
 				if (src.holding)
 					var/t1 = src.gas.total_moles()
 					var/t2 = t1
@@ -176,7 +173,8 @@
 							t = t2
 						src.gas.turf_add(T, t)
 			if(2.0)
-				if( !portable() ) use_power(50, ENVIRON)
+				if( !portable() )
+					use_power(50, ENVIRON)
 				if (src.holding)
 					var/t1 = src.gas.total_moles()
 					var/t2 = src.maximum - t1
@@ -193,14 +191,16 @@
 							t = t2
 						src.gas.turf_take(T, t)
 			if(4.0)
-				if( !portable() ) use_power(50, ENVIRON)
+				if( !portable() )
+					use_power(50, ENVIRON)
 				if (T)
 					if (T.firelevel > 900000.0)
 						src.f_time = world.time + 400
 					else
 						if (world.time > src.f_time)
 							src.gas.extract_toxs(T)
-							if( !portable() ) use_power(150, ENVIRON)
+							if( !portable() )
+								use_power(150, ENVIRON)
 							var/contain = src.gas.total_moles()
 							if (contain > 1.3E8)
 								src.gas.turf_add(T, 1.3E8 - contain)
@@ -301,7 +301,8 @@
 	/*
 //	var/dbg = (suffix=="d") && Debug
 
-	if(stat & NOPOWER) return
+	if(stat & NOPOWER)
+		return
 
 	if (src.t_status != 3)
 		var/turf/T = src.loc
@@ -312,7 +313,8 @@
 			T = null
 		switch(src.t_status)
 			if(1.0)
-				if( !portable() ) use_power(50, ENVIRON)
+				if( !portable() )
+					use_power(50, ENVIRON)
 				if (src.holding)
 					var/t1 = src.gas.total_moles()
 					var/t2 = t1
@@ -329,7 +331,8 @@
 							t = t2
 						src.gas.turf_add(T, t)
 			if(2.0)
-				if( !portable() ) use_power(50, ENVIRON)
+				if( !portable() )
+					use_power(50, ENVIRON)
 				if (src.holding)
 					var/t1 = src.gas.total_moles()
 					var/t2 = src.maximum - t1
@@ -377,11 +380,18 @@
 	*/ //TODO: FIX
 
 /obj/machinery/atmoalter/siphs/attack_ai(user as mob)
+	src.add_hiddenprint(user)
 	return src.attack_hand(user)
+
+/obj/machinery/atmoalter/siphs/attack_paw(user as mob)
+
+	return src.attack_hand(user)
+	return
 
 /obj/machinery/atmoalter/siphs/attack_hand(var/mob/user as mob)
 
-	if(stat & NOPOWER) return
+	if(stat & NOPOWER)
+		return
 
 	if(src.portable() && istype(user, /mob/living/silicon/ai)) //AI can't use portable siphons
 		return
@@ -410,13 +420,14 @@
 	var/at = null
 	if (src.t_status == 4)
 		at = text("Automatic On <A href='?src=\ref[];t=3'>Stop</A>", src)
-	var/dat = text("<TT><B>Canister Valves</B> []<BR><br>&emsp;<FONT color = 'blue'><B>Contains/Capacity</B> [] / []</FONT><BR><br>&emsp;Upper Valve Status: [] []<BR><br>&emsp;&emsp;<A href='?src=\ref[];tp=-[]'>M</A> <A href='?src=\ref[];tp=-10000'>-</A> <A href='?src=\ref[];tp=-1000'>-</A> <A href='?src=\ref[];tp=-100'>-</A> <A href='?src=\ref[];tp=-1'>-</A> [] <A href='?src=\ref[];tp=1'>+</A> <A href='?src=\ref[];tp=100'>+</A> <A href='?src=\ref[];tp=1000'>+</A> <A href='?src=\ref[];tp=10000'>+</A> <A href='?src=\ref[];tp=[]'>M</A><BR><br>&emsp;Pipe Valve Status: []<BR><br>&emsp;&emsp;<A href='?src=\ref[];cp=-[]'>M</A> <A href='?src=\ref[];cp=-10000'>-</A> <A href='?src=\ref[];cp=-1000'>-</A> <A href='?src=\ref[];cp=-100'>-</A> <A href='?src=\ref[];cp=-1'>-</A> [] <A href='?src=\ref[];cp=1'>+</A> <A href='?src=\ref[];cp=100'>+</A> <A href='?src=\ref[];cp=1000'>+</A> <A href='?src=\ref[];cp=10000'>+</A> <A href='?src=\ref[];cp=[]'>M</A><BR><br><BR><br><br><A href='?action=mach_close&window=&user=[]siphon'>Close</A><BR><br>&emsp;</TT>", (!( src.alterable ) ? "<B>Valves are locked. Unlock with wrench!</B>" : "You can lock this interface with a wrench."), num2text(src.gas.return_pressure(), 10), num2text(src.maximum, 10), (src.t_status == 4 ? text("[]", at) : text("[]", tt)), (src.holding ? text("<BR>(<A href='?src=\ref[];tank=1'>Tank ([]</A>)", src, src.holding.air_contents.return_pressure()) : null), src, num2text(max_valve, 7), src, src, src, src, src.t_per, src, src, src, src, src, num2text(max_valve, 7), ct, src, num2text(max_valve, 7), src, src, src, src, src.c_per, src, src, src, src, src, num2text(max_valve, 7), user)
+	var/dat = text("<TT><B>Canister Valves</B> []<BR>\n\t<FONT color = 'blue'><B>Contains/Capacity</B> [] / []</FONT><BR>\n\tUpper Valve Status: [] []<BR>\n\t\t<A href='?src=\ref[];tp=-[]'>M</A> <A href='?src=\ref[];tp=-10000'>-</A> <A href='?src=\ref[];tp=-1000'>-</A> <A href='?src=\ref[];tp=-100'>-</A> <A href='?src=\ref[];tp=-1'>-</A> [] <A href='?src=\ref[];tp=1'>+</A> <A href='?src=\ref[];tp=100'>+</A> <A href='?src=\ref[];tp=1000'>+</A> <A href='?src=\ref[];tp=10000'>+</A> <A href='?src=\ref[];tp=[]'>M</A><BR>\n\tPipe Valve Status: []<BR>\n\t\t<A href='?src=\ref[];cp=-[]'>M</A> <A href='?src=\ref[];cp=-10000'>-</A> <A href='?src=\ref[];cp=-1000'>-</A> <A href='?src=\ref[];cp=-100'>-</A> <A href='?src=\ref[];cp=-1'>-</A> [] <A href='?src=\ref[];cp=1'>+</A> <A href='?src=\ref[];cp=100'>+</A> <A href='?src=\ref[];cp=1000'>+</A> <A href='?src=\ref[];cp=10000'>+</A> <A href='?src=\ref[];cp=[]'>M</A><BR>\n<BR>\n\n<A href='?src=\ref[];mach_close=siphon'>Close</A><BR>\n\t</TT>", (!( src.alterable ) ? "<B>Valves are locked. Unlock with wrench!</B>" : "You can lock this interface with a wrench."), num2text(src.gas.return_pressure(), 10), num2text(src.maximum, 10), (src.t_status == 4 ? text("[]", at) : text("[]", tt)), (src.holding ? text("<BR>(<A href='?src=\ref[];tank=1'>Tank ([]</A>)", src, src.holding.air_contents.return_pressure()) : null), src, num2text(max_valve, 7), src, src, src, src, src.t_per, src, src, src, src, src, num2text(max_valve, 7), ct, src, num2text(max_valve, 7), src, src, src, src, src.c_per, src, src, src, src, src, num2text(max_valve, 7), user)
 	user << browse(dat, "window=siphon;size=600x300")
 	onclose(user, "siphon")
 	return
 
 /obj/machinery/atmoalter/siphs/Topic(href, href_list)
-	..()
+	if(..())
+		return 1
 
 	if (usr.stat || usr.restrained())
 		return
@@ -464,7 +475,7 @@
 						if (href_list["tank"])
 							var/cp = text2num(href_list["tank"])
 							if (cp == 1)
-								src.holding.set_loc(src.loc)
+								src.holding.forceMove(src.loc)
 								src.holding = null
 								if (src.t_status == 2)
 									src.t_status = 3
@@ -483,7 +494,7 @@
 			return
 		var/obj/item/weapon/tank/T = W
 		user.drop_item()
-		T.set_loc(src)
+		T.forceMove(src)
 		src.holding = T
 	else
 		if (istype(W, /obj/item/weapon/screwdriver))
@@ -491,26 +502,26 @@
 			if (src.c_status)
 				src.anchored = 0
 				src.c_status = 0
-				user.show_message("<span style=\"color:blue\">You have disconnected the siphon.</span>")
+				user.show_message("<span class='notice'>You have disconnected the siphon.</span>")
 				if(con)
 					con.connected = null
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
-					user.show_message("<span style=\"color:blue\">You have connected the siphon.</span>")
+					user.show_message("<span class='notice'>You have connected the siphon.</span>")
 					con.connected = src
 				else
-					user.show_message("<span style=\"color:blue\">There is nothing here to connect to the siphon.</span>")
+					user.show_message("<span class='notice'>There is nothing here to connect to the siphon.</span>")
 
 
 		else
 			if (istype(W, /obj/item/weapon/wrench))
 				src.alterable = !( src.alterable )
 				if (src.alterable)
-					boutput(user, "<span style=\"color:blue\">You unlock the interface!</span>")
+					to_chat(user, "<span class='notice'>You unlock the interface!</span>")
 				else
-					boutput(user, "<span style=\"color:blue\">You lock the interface!</span>")
+					to_chat(user, "<span class='notice'>You lock the interface!</span>")
 	return
 
 

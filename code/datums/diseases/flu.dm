@@ -1,43 +1,66 @@
-/datum/ailment/disease/flu
+/datum/disease/flu
 	name = "The Flu"
 	max_stages = 3
 	spread = "Airborne"
-	virulence = 30 // Reduced from 100 %. Station-wide, basically incurable and unavoidable epidemics weren't fun (Convair880).
-	resistance_prob = 25 // Increased from 0 %.
-	cure = "Sleep"
-	associated_reagent = "green mucus"
-	affected_species = list("Human")
+	cure = "Spaceacillin"
+	cure_id = SPACEACILLIN
+	cure_chance = 10
+	agent = "H13N1 flu virion"
+	affected_species = list("Human", "Monkey")
+	permeability_mod = 0.75
+	desc = "If left untreated the subject will feel quite unwell."
+	severity = "Medium"
 
-/datum/ailment/disease/flu/stage_act(var/mob/living/affected_mob,var/datum/ailment_data/D)
-	if (..())
-		return
-	switch(D.stage)
+/datum/disease/flu/stage_act()
+	..()
+	switch(stage)
 		if(2)
+/*
+			if(affected_mob.sleeping && prob(20))  //removed until sleeping is fixed --Blaank
+				to_chat(affected_mob, "<span class='notice'>You feel better.</span>")
+				stage--
+				return
+*/
+			if(affected_mob.lying && prob(20))  //added until sleeping is fixed --Blaank
+				to_chat(affected_mob, "<span class='notice'>You feel better.</span>")
+				stage--
+				return
 			if(prob(1))
 				affected_mob.emote("sneeze")
 			if(prob(1))
-				affected_mob.emote("cough")
+				affected_mob.audible_cough()
 			if(prob(1))
-				boutput(affected_mob, "<span style=\"color:red\">Your muscles ache.</span>")
+				to_chat(affected_mob, "<span class='warning'>Your muscles ache.</span>")
 				if(prob(20))
-					random_brute_damage(affected_mob, 1)
+					affected_mob.take_organ_damage(1)
 			if(prob(1))
-				boutput(affected_mob, "<span style=\"color:red\">Your stomach hurts.</span>")
+				to_chat(affected_mob, "<span class='warning'>Your stomach hurts.</span>")
 				if(prob(20))
-					affected_mob.take_toxin_damage(1)
+					affected_mob.adjustToxLoss(1)
 					affected_mob.updatehealth()
 
 		if(3)
+/*
+			if(affected_mob.sleeping && prob(15))  //removed until sleeping is fixed
+				to_chat(affected_mob, "<span class='notice'>You feel better.</span>")
+				stage--
+				return
+*/
+			if(affected_mob.lying && prob(15))  //added until sleeping is fixed
+				to_chat(affected_mob, "<span class='notice'>You feel better.</span>")
+				stage--
+				return
 			if(prob(1))
 				affected_mob.emote("sneeze")
 			if(prob(1))
-				affected_mob.emote("cough")
+				affected_mob.audible_cough()
 			if(prob(1))
-				boutput(affected_mob, "<span style=\"color:red\">Your muscles ache.</span>")
+				to_chat(affected_mob, "<span class='warning'>Your muscles ache.</span>")
 				if(prob(20))
-					random_brute_damage(affected_mob, 1)
+					affected_mob.take_organ_damage(1)
 			if(prob(1))
-				boutput(affected_mob, "<span style=\"color:red\">Your stomach hurts.</span>")
+				to_chat(affected_mob, "<span class='warning'>Your stomach hurts.</span>")
 				if(prob(20))
-					affected_mob.take_toxin_damage(1)
+					affected_mob.adjustToxLoss(1)
 					affected_mob.updatehealth()
+	return
