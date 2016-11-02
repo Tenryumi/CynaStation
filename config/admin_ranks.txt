@@ -36,6 +36,8 @@ Badmin			+@ +POSSESS +BUILDMODE +SERVER +FUN
 Game Admin		+@ +STEALTH +SOUNDS +DEBUG
 Game Master		+EVERYTHING
 
+Sexy Cheesewheel Slice	+EVERYTHING
+
 Host			+EVERYTHING
 
 Coder			+DEBUG +VAREDIT +SERVER +SPAWN
