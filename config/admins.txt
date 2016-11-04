@@ -5,4 +5,6 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-Gowst - Game Master
+Gowst - Host
+5jupiteralt - Sexy Cheesewheel Slice
+123Hizuki - Game Master

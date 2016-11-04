@@ -54,3 +54,6 @@ players2.sqlite
 
 # Investigate logs that have an annoying tendency to generate during testing
 /data/investigate/*
+/tools/Runtime Condenser/Output.txt
+/tools/Runtime Condenser/Input.txt
+/maprendering/renderoutput/spacebase.png

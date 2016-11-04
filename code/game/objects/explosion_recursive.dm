@@ -122,6 +122,14 @@ proc/explosion_rec(turf/epicenter, power)
 
 /turf/simulated/wall/invulnerable
 
+/turf/simulated/wall/invulnerable/uranium
+	name = "uranium wall"
+	desc = "A wall with uranium plating."
+	icon_state = "uranium0"
+	walltype = "uranium"
+	mineral = "uranium"
+	explosion_block = 2
+
 
 //Code-wise, a safe value for power is something up to ~25 or ~30.. This does quite a bit of damage to the station.
 //direction is the direction that the spread took to come to this tile. So it is pointing in the main blast direction - meaning where this tile should spread most of it's force.
