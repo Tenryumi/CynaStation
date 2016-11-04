@@ -1,3 +1,5 @@
+# GITBOT IS NOT RESPONSIBLE FOR ANY SUDDEN SENTIENCE IT GAINS DURING ITS CAREER.
+
 # CynaStation
 More spessmens, more magic.
 This is a project that I am undoubtedly going to be on and off of.
