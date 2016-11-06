@@ -15,6 +15,32 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 #define SUPER_JAMMED 2
 
+/********************************************************************
+
+***::::::::::::::::::::::::: CYNASTATION :::::::::::::::::::::::::***
+
+********************************************************************/
+
+
+/area/academy
+	name = "\improper The Academy"
+	icon_state = "academy"
+
+/area/academy/test1
+	name = "\improper Test room #1"
+	icon_state = "yellow"
+
+/area/academy/test2
+	name = "\improper Test room #2"
+	icon_state = "bluenew"
+
+
+/********************************************************************
+
+***::::::::::::::::::::::::: OTHER AREAS :::::::::::::::::::::::::***
+
+********************************************************************/
+
 /area
 	var/fire = null
 	var/atmos = 1
@@ -2287,6 +2313,12 @@ proc/process_adminbus_teleport_locs()
 /area/awaymission/leviathan/mining
 	name = "Leviathan"
 	icon_state = "mining_production"
+
+
+
+
+
+
 
 /////////////////////////////////////////////////////////////////////
 /*
