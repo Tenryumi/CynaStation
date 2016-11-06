@@ -34,6 +34,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Test room #2"
 	icon_state = "bluenew"
 
+/area/academy/testkitchen
+	name = "\improper Test room Kitchen"
+	icon_state = "kitchen"
+
 
 /********************************************************************
 

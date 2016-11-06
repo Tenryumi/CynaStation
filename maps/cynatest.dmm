@@ -1,136 +1,193 @@
 "aa" = (/turf/space/transit/east,/area)
 "ab" = (/turf/simulated/wall/invulnerable/uranium,/area/academy/test1)
 "ac" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/turf/simulated/floor/plating,/area/academy/test1)
-"ad" = (/obj/structure/shuttle/engine/propulsion{icon_state = "burst_r"; dir = 8},/turf/space/transit/east,/area/academy/test1)
-"ae" = (/obj/structure/shuttle/engine/heater{dir = 8},/turf/simulated/floor/plating,/area/academy/test1)
-"af" = (/turf/simulated/floor{icon_state = "neutral"; dir = 9},/area/academy/test1)
-"ag" = (/obj/machinery/vending/magivend,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
-"ah" = (/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
-"ai" = (/obj/machinery/light{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
-"aj" = (/turf/simulated/floor{dir = 5; icon_state = "neutral"},/area/academy/test1)
-"ak" = (/obj/structure/shuttle/engine/propulsion{icon_state = "propulsion_l"; dir = 8},/turf/space/transit/east,/area/academy/test1)
-"al" = (/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test1)
-"am" = (/turf/simulated/floor,/area/academy/test1)
-"an" = (/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"ao" = (/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
-"ap" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/turf/simulated/floor/plating,/area/academy/test2)
-"aq" = (/turf/simulated/floor{dir = 1; icon_state = "neutralcorner"},/area/academy/test1)
-"ar" = (/turf/simulated/floor{icon_state = "neutral"; dir = 9},/area/academy/test2)
-"as" = (/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"at" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"au" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"av" = (/obj/machinery/light{dir = 1},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"aw" = (/obj/machinery/power/apc{dir = 1; pixel_y = 30},/obj/structure/cable/yellow{icon_state = "0-8"},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"ax" = (/obj/machinery/light{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"ay" = (/turf/simulated/floor{dir = 5; icon_state = "neutral"},/area/academy/test2)
-"az" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/space/transit/east,/area/academy/test1)
-"aA" = (/obj/machinery/light{dir = 8},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test1)
-"aB" = (/obj/structure/table/reinforced,/obj/item/clothing/head/wizard/marisa,/obj/item/weapon/staff/broom,/obj/item/clothing/suit/wizrobe/marisa,/obj/item/clothing/shoes/sandal/marisa,/turf/simulated/floor,/area/academy/test1)
-"aC" = (/obj/structure/table/reinforced,/obj/item/clothing/head/wizard,/obj/item/weapon/staff,/obj/item/clothing/suit/wizrobe,/obj/item/clothing/shoes/sandal,/turf/simulated/floor,/area/academy/test1)
-"aD" = (/obj/machinery/light,/turf/simulated/floor,/area/academy/test1)
-"aE" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook,/turf/simulated/floor,/area/academy/test1)
-"aF" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook/admin,/turf/simulated/floor,/area/academy/test1)
-"aG" = (/obj/machinery/light{dir = 4},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"aH" = (/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
-"aI" = (/turf/simulated/floor,/area/academy/test2)
-"aJ" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test2)
-"aK" = (/turf/simulated/floor{dir = 4; icon_state = "neutralcorner"},/area/academy/test2)
-"aL" = (/obj/structure/table/reinforced,/obj/item/clothing/suit/space/rig/wizard,/turf/simulated/floor,/area/academy/test1)
-"aM" = (/obj/structure/table/reinforced,/obj/item/weapon/storage/belt/soulstone/full,/turf/simulated/floor,/area/academy/test1)
-"aN" = (/turf/simulated/wall/r_wall,/area/academy/test1)
-"aO" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook/oneuse/robesummon,/turf/simulated/floor,/area/academy/test1)
-"aP" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/academy/test1)
-"aQ" = (/obj/machinery/light{dir = 8},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
-"aR" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"aS" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"aT" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"aU" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/simulated/floor{dir = 4; icon_state = "neutralcorner"},/area/academy/test1)
-"aV" = (/obj/machinery/door/airlock/centcom,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
-"aW" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
-"aX" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"aY" = (/obj/machinery/door/airlock/centcom,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
-"aZ" = (/turf/simulated/floor{dir = 1; icon_state = "neutralcorner"},/area/academy/test2)
-"ba" = (/obj/machinery/light,/turf/simulated/floor,/area/academy/test2)
-"bb" = (/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"bc" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/vent_pump{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"bd" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"be" = (/obj/effect/landmark/start{name = "Captain"},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
-"bf" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 10},/turf/simulated/floor,/area/academy/test1)
-"bg" = (/obj/machinery/light{dir = 8},/turf/simulated/floor,/area/academy/test1)
-"bh" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 6},/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor,/area/academy/test1)
-"bi" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/door/airlock/centcom,/turf/simulated/floor,/area/academy/test1)
-"bj" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test1)
-"bk" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
-"bl" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/door/airlock/centcom,/turf/simulated/floor,/area/academy/test2)
-"bm" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
-"bn" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor,/area/academy/test2)
-"bo" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bp" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bq" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/wall/r_wall,/area/academy/test2)
-"br" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bs" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 8},/turf/simulated/floor,/area/academy/test2)
-"bt" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor,/area/academy/test2)
-"bu" = (/obj/machinery/light{dir = 4},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test2)
-"bv" = (/turf/simulated/floor{dir = 10; icon_state = "neutral"},/area/academy/test1)
-"bw" = (/turf/simulated/floor{dir = 8; icon_state = "neutralcorner"},/area/academy/test1)
-"bx" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
-"by" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 2; icon_state = "neutralcorner"},/area/academy/test1)
-"bz" = (/obj/machinery/door/airlock/centcom,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"bA" = (/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"bB" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"bC" = (/obj/machinery/door/airlock/centcom,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"bD" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 8; icon_state = "neutralcorner"},/area/academy/test2)
-"bE" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bF" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bG" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{dir = 1},/turf/simulated/floor,/area/academy/test2)
-"bH" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
-"bI" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 9},/turf/simulated/floor,/area/academy/test2)
-"bJ" = (/turf/simulated/floor{dir = 2; icon_state = "neutralcorner"},/area/academy/test2)
-"bK" = (/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"bL" = (/turf/simulated/floor{dir = 6; icon_state = "neutral"},/area/academy/test2)
-"bM" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"bN" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test2)
-"bO" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/curry,/turf/simulated/floor,/area/academy/test1)
-"bP" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/cheesewedge,/turf/simulated/floor,/area/academy/test1)
-"bQ" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/alarm{dir = 8; pixel_x = 24},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"bR" = (/obj/machinery/light,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"bS" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/customizable/pizza,/turf/simulated/floor,/area/academy/test1)
-"bT" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/academy/test1)
-"bU" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
-"bV" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow{icon_state = "0-2"},/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
-"bW" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/battery/smes/infinite{output = 200000},/obj/structure/window/reinforced{dir = 1},/obj/structure/cable/yellow{icon_state = "0-8"},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
-"bX" = (/obj/machinery/door/window,/obj/structure/window{dir = 1},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
-"bY" = (/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test2)
-"bZ" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow,/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
-"ca" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/battery/smes/infinite{output = 200000},/obj/structure/cable/yellow{icon_state = "0-8"},/turf/simulated/floor{dir = 10; icon_state = "neutral"},/area/academy/test2)
-"cb" = (/obj/machinery/door/window,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"cc" = (/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"cd" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"ce" = (/obj/machinery/alarm{dir = 1; pixel_y = -24},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
-"cf" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
-"cg" = (/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"ch" = (/obj/machinery/light,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"ci" = (/obj/machinery/computer/general_air_control/large_tank_control{frequency = 1441; input_tag = null; name = "Oxygen Supply Control"; output_tag = "o2_out"; sensors = list("o2_sensor" = "Tank")},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"cj" = (/obj/machinery/atmospherics/binary/valve/digital{name = "Oxygen Outlet Valve"; openDuringInit = 1},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"ck" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"cl" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"cm" = (/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"cn" = (/obj/machinery/power/apc{pixel_y = -30},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/terminal,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"co" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
-"cp" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 9},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor{dir = 6; icon_state = "neutral"},/area/academy/test1)
-"cq" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1; frequency = 1443; icon_state = "on"; id_tag = "air_in"; on = 1},/turf/simulated/floor/plating,/area)
-"cr" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/cyan/visible,/turf/simulated/floor/plating,/area/academy/test1)
-"cs" = (/obj/structure/grille,/turf/simulated/wall/r_wall,/area/academy/test1)
-"ct" = (/obj/structure/grille,/obj/machinery/meter,/turf/simulated/wall/r_wall,/area/academy/test1)
-"cu" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/full/reinforced,/turf/simulated/floor/plating/airless,/area/academy/test1)
-"cv" = (/obj/structure/grille,/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/cyan/visible,/turf/simulated/wall/r_wall,/area/academy/test1)
-"cw" = (/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
-"cx" = (/obj/effect/decal/warning_stripes{icon_state = "oxygen"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
-"cy" = (/obj/machinery/atmospherics/unary/vent_pump{canSpawnMice = 0; dir = 1; external_pressure_bound = 0; frequency = 1441; icon_state = "in"; id_tag = "o2_out"; initialize_directions = 1; internal_pressure_bound = 4000; on = 1; pressure_checks = 2; pump_direction = 0},/obj/effect/decal/warning_stripes{icon_state = "bot"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
-"cz" = (/obj/machinery/atmospherics/miner/oxygen,/obj/effect/decal/warning_stripes{icon_state = "unloading"},/obj/machinery/light/small,/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
-"cA" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "o2_sensor"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
-"cB" = (/obj/structure/grille,/obj/structure/grille,/turf/simulated/wall/r_wall,/area/academy/test1)
-"cC" = (/turf/space,/area)
+"ad" = (/turf/simulated/wall/invulnerable/uranium,/area/crew_quarters/kitchen)
+"ae" = (/obj/structure/shuttle/engine/propulsion{icon_state = "burst_r"; dir = 8},/turf/space/transit/east,/area/academy/test1)
+"af" = (/obj/structure/shuttle/engine/heater{dir = 8},/turf/simulated/floor/plating,/area/academy/test1)
+"ag" = (/turf/simulated/floor{icon_state = "neutral"; dir = 9},/area/academy/test1)
+"ah" = (/obj/machinery/vending/magivend,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"ai" = (/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"aj" = (/obj/machinery/light{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"ak" = (/turf/simulated/floor{dir = 5; icon_state = "neutral"},/area/academy/test1)
+"al" = (/obj/machinery/cooking,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"am" = (/obj/machinery/light{dir = 1},/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"an" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"ao" = (/obj/machinery/cooking/grill,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"ap" = (/obj/structure/table/reinforced,/obj/machinery/microwave,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aq" = (/obj/structure/shuttle/engine/propulsion{icon_state = "propulsion_l"; dir = 8},/turf/space/transit/east,/area/academy/test1)
+"ar" = (/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test1)
+"as" = (/turf/simulated/floor,/area/academy/test1)
+"at" = (/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"au" = (/obj/machinery/door/airlock{name = "Kitchen"},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"av" = (/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aw" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"ax" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"ay" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/obj/machinery/alarm{dir = 8; pixel_x = 24},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"az" = (/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
+"aA" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/turf/simulated/floor/plating,/area/academy/test2)
+"aB" = (/turf/simulated/floor{dir = 1; icon_state = "neutralcorner"},/area/academy/test1)
+"aC" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor,/area/academy/test1)
+"aD" = (/obj/machinery/vending/dinnerware,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aE" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/condiment/enzyme{pixel_x = -5},/obj/item/weapon/reagent_containers/food/condiment/sugar{pixel_x = 2},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aF" = (/obj/machinery/cooking/icemachine,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aG" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aH" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/turf/simulated/floor/plating,/area/crew_quarters/kitchen)
+"aI" = (/turf/simulated/floor{icon_state = "neutral"; dir = 9},/area/academy/test2)
+"aJ" = (/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aK" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aL" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aM" = (/obj/machinery/light{dir = 1},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aN" = (/obj/machinery/power/apc{dir = 1; pixel_y = 30},/obj/structure/cable/yellow{icon_state = "0-8"},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aO" = (/obj/machinery/light{dir = 1},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"aP" = (/turf/simulated/floor{dir = 5; icon_state = "neutral"},/area/academy/test2)
+"aQ" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/space/transit/east,/area/academy/test1)
+"aR" = (/obj/machinery/light{dir = 8},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test1)
+"aS" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"aT" = (/obj/structure/table/reinforced,/obj/item/clothing/head/wizard/marisa,/obj/item/weapon/staff/broom,/obj/item/clothing/suit/wizrobe/marisa,/obj/item/clothing/shoes/sandal/marisa,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"aU" = (/obj/structure/table/reinforced,/obj/item/clothing/head/wizard,/obj/item/weapon/staff,/obj/item/clothing/suit/wizrobe,/obj/item/clothing/shoes/sandal,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"aV" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"aW" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"aX" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"aY" = (/obj/machinery/cooking/deepfryer,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"aZ" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"ba" = (/obj/machinery/cooking/candy,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bb" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bc" = (/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
+"bd" = (/turf/simulated/floor,/area/academy/test2)
+"be" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test2)
+"bf" = (/turf/simulated/floor{dir = 4; icon_state = "neutralcorner"},/area/academy/test2)
+"bg" = (/obj/structure/table/reinforced,/obj/item/clothing/suit/space/rig/wizard,/turf/simulated/floor,/area/academy/test1)
+"bh" = (/obj/structure/table/reinforced,/obj/item/clothing/suit/wizrobe/headmasterrobe,/turf/simulated/floor,/area/academy/test1)
+"bi" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
+"bj" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"bk" = (/obj/machinery/power/apc{dir = 8; pixel_x = -30},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/terminal{dir = 8},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bl" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bm" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bn" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bo" = (/obj/machinery/light{dir = 8},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
+"bp" = (/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"bq" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/wall/invulnerable/uranium,/area/crew_quarters/kitchen)
+"br" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/structure/table/reinforced,/obj/item/weapon/storage/fancy/donut_box,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bs" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/structure/table/reinforced,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bt" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/structure/table/reinforced,/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bu" = (/obj/structure/table/reinforced,/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{icon_state = "cafeteria"; dir = 5},/area/crew_quarters/kitchen)
+"bv" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor,/area/academy/test2)
+"bw" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor{dir = 4; icon_state = "neutralcorner"},/area/academy/test1)
+"bx" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"by" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"bz" = (/obj/machinery/door/airlock/centcom,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"bA" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test1)
+"bB" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"bC" = (/obj/machinery/door/airlock/centcom,/turf/simulated/floor{dir = 1; icon_state = "neutral"},/area/academy/test2)
+"bD" = (/turf/simulated/floor{dir = 1; icon_state = "neutralcorner"},/area/academy/test2)
+"bE" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor,/area/academy/test2)
+"bF" = (/obj/machinery/light,/turf/simulated/floor,/area/academy/test2)
+"bG" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test2)
+"bH" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bI" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bJ" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bK" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/wall/r_wall,/area/academy/test1)
+"bL" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bM" = (/obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
+"bN" = (/obj/effect/landmark/start{name = "Captain"},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bO" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test1)
+"bP" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 10},/turf/simulated/floor,/area/academy/test1)
+"bQ" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 6},/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test1)
+"bR" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/door/airlock/centcom,/turf/simulated/floor,/area/academy/test1)
+"bS" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test1)
+"bT" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
+"bU" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/door/airlock/centcom,/turf/simulated/floor,/area/academy/test2)
+"bV" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
+"bW" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor,/area/academy/test2)
+"bX" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden,/turf/simulated/floor,/area/academy/test2)
+"bY" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"bZ" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"ca" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/wall/r_wall,/area/academy/test2)
+"cb" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"cc" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden{dir = 1},/turf/simulated/floor,/area/academy/test2)
+"cd" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 8},/turf/simulated/floor,/area/academy/test2)
+"ce" = (/obj/machinery/light{dir = 4},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test2)
+"cf" = (/turf/simulated/floor{dir = 10; icon_state = "neutral"},/area/academy/test1)
+"cg" = (/turf/simulated/floor{dir = 8; icon_state = "neutralcorner"},/area/academy/test1)
+"ch" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 6},/turf/simulated/floor,/area/academy/test1)
+"ci" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
+"cj" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 9},/turf/simulated/floor,/area/academy/test1)
+"ck" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 2; icon_state = "neutralcorner"},/area/academy/test1)
+"cl" = (/obj/machinery/door/airlock/centcom,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"cm" = (/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"cn" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"co" = (/obj/machinery/door/airlock/centcom,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"cp" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor{dir = 8; icon_state = "neutralcorner"},/area/academy/test2)
+"cq" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"cr" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"cs" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{dir = 1},/turf/simulated/floor,/area/academy/test2)
+"ct" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"cu" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/turf/simulated/floor,/area/academy/test2)
+"cv" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,/turf/simulated/floor,/area/academy/test2)
+"cw" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/simulated/floor,/area/academy/test2)
+"cx" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 9},/turf/simulated/floor,/area/academy/test2)
+"cy" = (/turf/simulated/floor{dir = 2; icon_state = "neutralcorner"},/area/academy/test2)
+"cz" = (/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"cA" = (/turf/simulated/floor{dir = 6; icon_state = "neutral"},/area/academy/test2)
+"cB" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test1)
+"cC" = (/obj/machinery/light,/turf/simulated/floor,/area/academy/test1)
+"cD" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"cE" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor,/area/academy/test2)
+"cF" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 5},/turf/simulated/floor,/area/academy/test2)
+"cG" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 9},/turf/simulated/floor,/area/academy/test2)
+"cH" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/curry,/turf/simulated/floor,/area/academy/test1)
+"cI" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/cheesewedge,/turf/simulated/floor,/area/academy/test1)
+"cJ" = (/turf/simulated/wall/r_wall,/area/academy/test1)
+"cK" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook,/turf/simulated/floor,/area/academy/test1)
+"cL" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook/admin,/turf/simulated/floor,/area/academy/test1)
+"cM" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/alarm{dir = 8; pixel_x = 24},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"cN" = (/obj/machinery/light,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"cO" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/academy/test1)
+"cP" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/snacks/customizable/pizza,/turf/simulated/floor,/area/academy/test1)
+"cQ" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/academy/test1)
+"cR" = (/obj/structure/table/reinforced,/obj/item/weapon/spellbook/oneuse/robesummon,/turf/simulated/floor,/area/academy/test1)
+"cS" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/cyan/hidden,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor{dir = 4; icon_state = "neutral"},/area/academy/test1)
+"cT" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow{icon_state = "0-2"},/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
+"cU" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/battery/smes/infinite{output = 200000},/obj/structure/window/reinforced{dir = 1},/obj/structure/cable/yellow{icon_state = "0-8"},/turf/simulated/floor{icon_state = "neutral"; dir = 8},/area/academy/test2)
+"cV" = (/obj/machinery/door/window,/obj/structure/window{dir = 1},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/academy/test2)
+"cW" = (/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test2)
+"cX" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor,/area/academy/test1)
+"cY" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 1},/turf/simulated/floor,/area/academy/test1)
+"cZ" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow,/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
+"da" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/battery/smes/infinite{output = 200000},/obj/structure/cable/yellow{icon_state = "0-8"},/turf/simulated/floor{dir = 10; icon_state = "neutral"},/area/academy/test2)
+"db" = (/obj/machinery/door/window,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"dc" = (/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"dd" = (/obj/machinery/atmospherics/binary/volume_pump/on{name = "Filtered Air Pump"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"de" = (/obj/machinery/alarm{dir = 1; pixel_y = -24},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test2)
+"df" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 5},/turf/simulated/floor,/area/academy/test1)
+"dg" = (/obj/machinery/atmospherics/pipe/manifold/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
+"dh" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/wall/invulnerable/uranium,/area/academy/test2)
+"di" = (/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dj" = (/obj/machinery/light,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dk" = (/obj/machinery/computer/general_air_control/large_tank_control{frequency = 1441; input_tag = null; name = "Oxygen Supply Control"; output_tag = "o2_out"; sensors = list("o2_sensor" = "Tank")},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dl" = (/obj/machinery/atmospherics/binary/valve/digital{name = "Oxygen Outlet Valve"; openDuringInit = 1},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dm" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 4},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dn" = (/obj/machinery/atmospherics/binary/pump/on{dir = 4; name = "Oxygen Pump"},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"do" = (/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 10},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dp" = (/obj/machinery/power/apc{pixel_y = -30},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/terminal,/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dq" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/cyan/hidden{dir = 8},/turf/simulated/floor{dir = 2; icon_state = "neutral"},/area/academy/test1)
+"dr" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 9},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor{dir = 6; icon_state = "neutral"},/area/academy/test1)
+"ds" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1; frequency = 1443; icon_state = "on"; id_tag = "air_in"; on = 1},/turf/simulated/floor/plating,/area)
+"dt" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/cyan/visible,/turf/simulated/floor/plating,/area/academy/test1)
+"du" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 5},/turf/simulated/wall/invulnerable/uranium,/area/academy/test1)
+"dv" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/wall/invulnerable/uranium,/area/academy/test1)
+"dw" = (/obj/structure/window/full/reinforced,/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 9},/turf/simulated/floor/plating,/area/academy/test1)
+"dx" = (/obj/structure/grille,/turf/simulated/wall/r_wall,/area/academy/test1)
+"dy" = (/obj/structure/grille,/obj/machinery/meter,/turf/simulated/wall/r_wall,/area/academy/test1)
+"dz" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/full/reinforced,/turf/simulated/floor/plating/airless,/area/academy/test1)
+"dA" = (/obj/structure/grille,/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/cyan/visible,/turf/simulated/wall/r_wall,/area/academy/test1)
+"dB" = (/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
+"dC" = (/obj/effect/decal/warning_stripes{icon_state = "oxygen"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
+"dD" = (/obj/machinery/atmospherics/unary/vent_pump{canSpawnMice = 0; dir = 1; external_pressure_bound = 0; frequency = 1441; icon_state = "in"; id_tag = "o2_out"; initialize_directions = 1; internal_pressure_bound = 4000; on = 1; pressure_checks = 2; pump_direction = 0},/obj/effect/decal/warning_stripes{icon_state = "bot"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
+"dE" = (/obj/machinery/atmospherics/miner/oxygen,/obj/effect/decal/warning_stripes{icon_state = "unloading"},/obj/machinery/light/small,/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
+"dF" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "o2_sensor"},/turf/simulated/floor/engine{name = "o2 floor"; nitrogen = 0; oxygen = 100000},/area/academy/test1)
+"dG" = (/obj/structure/grille,/obj/structure/grille,/turf/simulated/wall/r_wall,/area/academy/test1)
+"dH" = (/turf/space,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -150,27 +207,27 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababacacacabababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeacafagahaiahahahahahahahaiahahajabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeacalamamamamamamamamamamamamamanabaaaaaoaoaoaoaoaoaoaoapapaoaoaoaoaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeacafaqamamamamamamamamamamamamamanacaaaaaparasatauavauauauauauavauawaxayaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazaeacaAamamamaBaCamamaDamamaEaFamamaGabaaaaaoaHaIaJaIaIaIaIaIaIaIaIaIaIaIaKasayapapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazaeacalamamamaLaMamamaNamamaOaPamamanabaaaaaoaQaIaJaIaIaIaIaIaIaIaIaIaIaIaIaIaKaxayaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeacalamamamamamamamaRaSaSaSaSaSaSaTabacapaoaHaIaJaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaKasayaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeacafaqamamamamamamamamamamamamamamaUaVaWaXaYaZaIaJaIaIaIaIbaaIaIaIaIaIaIaIaIaIaIaIaIaKasayapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazaeacaAamamamambbaNbcbdbebdbfaNbgamambhbibjbkblbmbmbnbobobobpbqbrbobsbtaIaIaIaIaIaIaIaIaIaIbuapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeacbvbwamamamamamamamamambxamamamambybzbAbBbCbDbEbFbEbEbEbGbHbEbEbEbIaIaIaIaIaIaIaIaIbJbKbLapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeacalamamamamamamamaDambxamamamambMabacapaoaHaIaJaIaIaIbNaIaIaIaIaIaIaIaIaIaIaIbJbKbLaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazaeacalamamambObPamamaNambxamamamambQabaaaaaoaQaIaJaIaIaIbNaIaIaIaIaIaIaIaIaIbJbRbLaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazaeacaAamamamaPbSamambTambxamamamambUabaaaabVbWbXbYaIaIaIbNaIaIaIaIaIaIaIbJbKbLapapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeacbvbwamamamamamamamambxamamamambMabaaaabZcacbccbKbRbKcdbKbKcebRbKbKbRbLaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeacalamamamamamamamambxamamamambMabaaaaaoaoaoaoaoaoaocfapapaoaoaoaoaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeacbvcgcgchcgcgcgcicjckclcmcncocpabaaaaaaaaaaaaaaaaaacqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababacababababacaccrababababacababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcsctcucvcsabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcscwcxcycsabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcscwczcAcsabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcBcscscscsabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababacacacadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeafacagahaiajaiaiaiaiakadalamanaoapadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqafacarasasasasasasasatauavavawaxayadaaaaazazazazazazazazaAaAazazazazazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeafacagaBasasasasasaCasatadavaDaEaFaGaHaaaaaAaIaJaKaLaMaLaLaLaLaLaMaLaNaOaPazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaQafacaRasasaSaTaUaVaWaVaXadavaYaZbabbadaaaaazbcbdbebdbdbdbdbdbdbdbdbdbdbdbfaJaPaAaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaQafacarasasasbgbhasbiasbjadbkblbmblbnadaaaaazbobdbebdbdbdbdbdbdbdbdbdbdbdbdbdbfaOaPazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqafacarasasasasasasbiaSbpbqbrbsbtbsbuadacaAazbcbdbebdbdbdbdbdbdbdbdbvbdbdbdbdbdbdbfaJaPazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeafacagaBasasasasasasbiasbwajaiaibxaibybzbAbBbCbDbdbebEbdbdbdbFbdbdbdbGbdbdbdbdbdbdbdbdbfaJaPaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaQafacaRasasbHbIbJbKbLbMbNbObPasasbiasbQbRbSbTbUbVbVbWbXbYbYbZcacbcccdbGbdbdbdbdbdbEbdbvbdbdceaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqafaccfcgasaschaVaVaVciaVcjbiasasbiasckclcmcncocpcqcrcqcscqcsctcqcucqcvcqcqcqcqcqcwcqcxcyczcAaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeafacarasascBasasasbicCasbiasasbiascDabacaAazbcbdbebdcEbdbGbdbdcFbYbYbYbYbYbYbYcGcyczcAazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaQafacarasascBcHcIasbicJasbicKcLbiascMabaaaaazbobdbebdbdbdbGbdbdbdbdbdbdbdbdbdcycNcAazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaQafacaRasascBcOcPasbicQasbicRcObiascSabaaaacTcUcVcWbdbdbdbGbdbdbdbdbdbdbdcyczcAaAaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqafaccfcgascXasasascYasasbiasasbiascDabaaaacZdadbdcczcNczddczczdecNczczcNcAazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeafacarasasasasasasasasdfbIbIdgbPcDabaaaaazazazazazazazdhaAaAazazazazazazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqafaccfdididjdidididkdldmdndodpdqdrabaaaaaaaaaaaaaaaaaadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababacababababacacdtababdudvdwababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdxdydzdAdxabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdxdBdCdDdxabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdxdBdEdFdxabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdGdxdxdxdxabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -191,291 +248,291 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,2) = {"
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
 "}
 
 (1,1,3) = {"
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
 "}
 
 (1,1,4) = {"
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
 "}
 
 (1,1,5) = {"
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
 "}
 
 (1,1,6) = {"
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
-cCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcC
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
+dHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdH
 "}
