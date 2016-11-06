@@ -839,6 +839,9 @@
 	name = "\improper Insulated pipe"
 	color = IPIPE_COLOR_RED
 	alert_pressure = 900*ONE_ATMOSPHERE
+/obj/machinery/atmospherics/pipe/manifold4w/cyan
+	name = "\improper Air supply pipe"
+	color = PIPE_COLOR_CYAN
 
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/visible
 	level = LEVEL_ABOVE_FLOOR
@@ -879,7 +882,11 @@
 	color=IPIPE_COLOR_BLUE
 /obj/machinery/atmospherics/pipe/manifold4w/insulated/visible/blue
 	color=IPIPE_COLOR_BLUE
-
+/obj/machinery/atmospherics/pipe/manifold4w/cyan/visible
+	level = LEVEL_ABOVE_FLOOR
+/obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden
+	level = LEVEL_BELOW_FLOOR
+	alpha=128
 
 /obj/machinery/atmospherics/pipe/attackby(var/obj/item/weapon/W as obj, var/mob/user as mob)
 	if(istype(W, /obj/item/device/rcd/rpd) || istype(W, /obj/item/device/pipe_painter))

@@ -162,3 +162,8 @@
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
 	siemens_coefficient = 1.0
 
+/obj/item/clothing/suit/wizrobe/headmasterrobe
+    name = "Headmaster's Robes"
+    desc = "Robes worn by the headmaster of the Academy. Two layers of finely woven, enchanted fabric protect the wearer."
+    icon_state = "headmaster"
+    item_state = "headmasterrobe"
