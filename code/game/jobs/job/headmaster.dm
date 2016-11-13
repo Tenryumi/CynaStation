@@ -33,7 +33,7 @@
 		var/obj/item/clothing/under/U = new /obj/item/clothing/under/rank/captain(H)
 		U.attach_accessory(new /obj/item/clothing/accessory/medal/gold/captain)
 		H.equip_or_collect(U, slot_w_uniform)
-		H.equip_or_collect(new /obj/item/clothing/suit/wizrobe/headmasterrobe, slot_suit)
+		H.equip_or_collect(new /obj/item/clothing/suit/wizrobe/headmasterrobe, slot_wear_suit)
 		//H.equip_or_collect(new /obj/item/device/pda/captain(H), slot_belt)
 		H.equip_or_collect(new /obj/item/clothing/shoes/brown(H), slot_shoes)
 		H.equip_or_collect(new /obj/item/clothing/head/wizard/amp(H), slot_head)

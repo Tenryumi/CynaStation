@@ -187,7 +187,7 @@
 	armor = list(melee = 30, bullet = 5, laser = 15,energy = 5, bomb = 30, bio = 100, rad = 20)
 
 
-// MEDSCI
+// ALCHEMY
 
 /obj/item/clothing/suit/space/plasmaman/medical
 	name = "plasmaman medical suit"

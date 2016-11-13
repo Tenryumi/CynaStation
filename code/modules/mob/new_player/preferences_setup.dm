@@ -245,7 +245,7 @@
 		//else
 		if(job_civilian_high)//I hate how this looks, but there's no reason to go through this switch if it's empty
 			switch(job_civilian_high)
-				if(HOP)
+				if(OS)
 					clothes_s = new /icon(uniform_dmi, "hop_s")
 					clothes_s.Blend(new /icon(feet_dmi, "brown"), ICON_UNDERLAY)
 					clothes_s.Blend(new /icon(suit_dmi, "armor"), ICON_OVERLAY)

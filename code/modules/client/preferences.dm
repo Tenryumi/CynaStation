@@ -132,9 +132,9 @@ var/const/MAX_SAVE_SLOTS = 8
 	var/icon/preview_icon_side = null
 
 		//Jobs, uses bitflags
-	var/job_civilian_high = 0
-	var/job_civilian_med = 0
-	var/job_civilian_low = 0
+	var/job_stavery_high = 0
+	var/job_stavery_med = 0
+	var/job_stavery_low = 0
 
 	var/job_medsci_high = 0
 	var/job_medsci_med = 0
@@ -460,7 +460,7 @@ var/const/MAX_SAVE_SLOTS = 8
 			var/available_in_days = job.available_in_days(user.client)
 			HTML += "<font color=red>[rank]</font></td><td><font color=red> \[IN [(available_in_days)] DAYS]</font></td></tr>"
 			continue
-		if((job_civilian_low & ASSISTANT) && (rank != "Assistant"))
+		if((job_stavery_low & ASSISTANT) && (rank != "Assistant"))
 			HTML += "<font color=orange>[rank]</font></td><td></td></tr>"
 			continue
 		if((rank in command_positions) || (rank == "AI"))//Bold head jobs
@@ -522,7 +522,7 @@ var/const/MAX_SAVE_SLOTS = 8
 
 
 		if(rank == "Assistant")//Assistant is special
-			if(job_civilian_low & ASSISTANT)
+			if(job_stavery_low & STAVERY)
 				HTML += " <font color=green>Yes</font>"
 			else
 				HTML += " <font color=red>No</font>"
@@ -690,11 +690,11 @@ var/const/MAX_SAVE_SLOTS = 8
 		ShowChoices(user)
 		return
 
-	if(role == "Assistant")
-		if(job_civilian_low & job.flag)
-			job_civilian_low &= ~job.flag
+	if(role == "Civilian")
+		if(job_stavery_low & job.flag)
+			job_stavery_low &= ~job.flag
 		else
-			job_civilian_low |= job.flag
+			job_stavery_low |= job.flag
 		SetChoices(user)
 		return 1
 
@@ -745,9 +745,9 @@ var/const/MAX_SAVE_SLOTS = 8
 	SetChoices(user)
 	return 1
 /datum/preferences/proc/ResetJobs()
-	job_civilian_high = 0
-	job_civilian_med = 0
-	job_civilian_low = 0
+	job_stavery_high = 0
+	job_stavery_med = 0
+	job_stavery_low = 0
 
 	job_medsci_high = 0
 	job_medsci_med = 0
@@ -761,15 +761,15 @@ var/const/MAX_SAVE_SLOTS = 8
 	if(!job || !level)
 		return 0
 	switch(job.department_flag)
-		if(CIVILIAN)
+		if(STAVERY)
 			switch(level)
 				if(1)
-					return job_civilian_high
+					return job_stavery_high
 				if(2)
-					return job_civilian_med
+					return job_stavery_med
 				if(3)
-					return job_civilian_low
-		if(MEDSCI)
+					return job_stavery_low
+		if(ALCHEMY)
 			switch(level)
 				if(1)
 					return job_medsci_high
@@ -792,31 +792,31 @@ var/const/MAX_SAVE_SLOTS = 8
 		return 0
 	switch(level)
 		if(1)//Only one of these should ever be active at once so clear them all here
-			job_civilian_high = 0
+			job_stavery_high = 0
 			job_medsci_high = 0
 			job_engsec_high = 0
 			return 1
 		if(2)//Set current highs to med, then reset them
-			job_civilian_med |= job_civilian_high
+			job_stavery_med |= job_stavery_high
 			job_medsci_med |= job_medsci_high
 			job_engsec_med |= job_engsec_high
 
-			job_civilian_high = 0
+			job_stavery_high = 0
 			job_medsci_high = 0
 			job_engsec_high = 0
 
 	switch(job.department_flag)
-		if(CIVILIAN)
+		if(STAVERY)
 			switch(level)
 				if(2)
-					job_civilian_high = job.flag
-					job_civilian_med &= ~job.flag
+					job_stavery_high = job.flag
+					job_stavery_med &= ~job.flag
 				if(3)
-					job_civilian_med |= job.flag
-					job_civilian_low &= ~job.flag
+					job_stavery_med |= job.flag
+					job_stavery_low &= ~job.flag
 				else
-					job_civilian_low |= job.flag
-		if(MEDSCI)
+					job_stavery_low |= job.flag
+		if(ALCHEMY)
 			switch(level)
 				if(2)
 					job_medsci_high = job.flag
@@ -866,15 +866,15 @@ var/const/MAX_SAVE_SLOTS = 8
 		d_level = level
 
 	switch(d_flag)
-		if(CIVILIAN)
+		if(STAVERY)
 			switch(d_level)
 				if(1) //high
-					job_civilian_high = new_flags
+					job_stavery_high = new_flags
 				if(2) //med
-					job_civilian_med = new_flags
+					job_stavery_med = new_flags
 				if(3) //low
-					job_civilian_low = new_flags
-		if(MEDSCI)
+					job_stavery_low = new_flags
+		if(ALCHEMY)
 			switch(d_level)
 				if(1) //high
 					job_medsci_high = new_flags

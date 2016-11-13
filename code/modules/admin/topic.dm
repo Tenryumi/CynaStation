@@ -656,9 +656,9 @@
 	************************************WARNING!***********************************/
 		var/counter = 0
 //Regular jobs
-	//Command (Blue)
+	//Command (Pink)
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr align='center' bgcolor='ccccff'><th colspan='[length(command_positions)]'><a href='?src=\ref[src];jobban3=commanddept;jobban4=\ref[M]'>Command Positions</a></th></tr><tr align='center'>"
+		jobs += "<tr align='center' bgcolor='ffddf0'><th colspan='[length(command_positions)]'><a href='?src=\ref[src];jobban3=commanddept;jobban4=\ref[M]'>Command Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in command_positions)
 			if(!jobPos)
 				continue
@@ -678,11 +678,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Security (Red)
+	//Poritary (Red)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='ffddf0'><th colspan='[length(security_positions)]'><a href='?src=\ref[src];jobban3=securitydept;jobban4=\ref[M]'>Security Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in security_positions)
+		jobs += "<tr bgcolor='ff4d4d'><th colspan='[length(poritary_positions)]'><a href='?src=\ref[src];jobban3=poritarydept;jobban4=\ref[M]'>poritary Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in poritary_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -701,11 +701,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Engineering (Yellow)
+	//Thaumaturgy (Orange)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='fff5cc'><th colspan='[length(engineering_positions)]'><a href='?src=\ref[src];jobban3=engineeringdept;jobban4=\ref[M]'>Engineering Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in engineering_positions)
+		jobs += "<tr bgcolor='ffcc99'><th colspan='[length(thaumaturgy_positions)]'><a href='?src=\ref[src];jobban3=thaumaturgydept;jobban4=\ref[M]'>thaumaturgy Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in thaumaturgy_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -724,11 +724,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Medical (White)
+	//Alchemy (Green)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='ffeef0'><th colspan='[length(medical_positions)]'><a href='?src=\ref[src];jobban3=medicaldept;jobban4=\ref[M]'>Medical Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in medical_positions)
+		jobs += "<tr bgcolor='80ff80'><th colspan='[length(alchemy_positions)]'><a href='?src=\ref[src];jobban3=alchemydept;jobban4=\ref[M]'>Medical Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in alchemy_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -747,11 +747,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Science (Purple)
+	//Magery (Blue)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='e79fff'><th colspan='[length(science_positions)]'><a href='?src=\ref[src];jobban3=sciencedept;jobban4=\ref[M]'>Science Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in science_positions)
+		jobs += "<tr bgcolor='66ccff'><th colspan='[length(magery_positions)]'><a href='?src=\ref[src];jobban3=magerydept;jobban4=\ref[M]'>magery Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in magery_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -770,35 +770,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Civilian (Grey)
+	//Stavery (Grey)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='dddddd'><th colspan='[length(civilian_positions)]'><a href='?src=\ref[src];jobban3=civiliandept;jobban4=\ref[M]'>Civilian Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in civilian_positions)
-			if(!jobPos)
-				continue
-			var/datum/job/job = job_master.GetJob(jobPos)
-			if(!job)
-				continue
-
-			if(jobban_isbanned(M, job.title))
-				jobs += "<td width='20%'><a href='?src=\ref[src];jobban3=[job.title];jobban4=\ref[M]'><font color=red>[replacetext(job.title, " ", "&nbsp")]</font></a></td>"
-				counter++
-			else
-				jobs += "<td width='20%'><a href='?src=\ref[src];jobban3=[job.title];jobban4=\ref[M]'>[replacetext(job.title, " ", "&nbsp")]</a></td>"
-				counter++
-
-			if(counter >= 5) //So things dont get squiiiiished!
-				jobs += "</tr><tr align='center'>"
-				counter = 0
-
-		jobs += "</tr></table>"
-
-	//Cargo (Brown)
-		counter = 0
-		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='b3a292'><th colspan='[length(cargo_positions)]'><a href='?src=\ref[src];jobban3=cargodept;jobban4=\ref[M]'>Cargo Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in cargo_positions)
+		jobs += "<tr bgcolor='dddddd'><th colspan='[length(stavery_positions)]'><a href='?src=\ref[src];jobban3=staverydept;jobban4=\ref[M]'>stavery Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in stavery_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -818,10 +794,34 @@
 
 		jobs += "</tr></table>"
 
-	//Non-Human (Green)
+	//Trannelary (Tangerine)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='ccffcc'><th colspan='[length(nonhuman_positions)+1]'><a href='?src=\ref[src];jobban3=nonhumandept;jobban4=\ref[M]'>Non-human Positions</a></th></tr><tr align='center'>"
+		jobs += "<tr bgcolor='e1886b'><th colspan='[length(trannelary_positions)]'><a href='?src=\ref[src];jobban3=trannelarydept;jobban4=\ref[M]'>trannelary Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in trannelary_positions)
+			if(!jobPos)
+				continue
+			var/datum/job/job = job_master.GetJob(jobPos)
+			if(!job)
+				continue
+
+			if(jobban_isbanned(M, job.title))
+				jobs += "<td width='20%'><a href='?src=\ref[src];jobban3=[job.title];jobban4=\ref[M]'><font color=red>[replacetext(job.title, " ", "&nbsp")]</font></a></td>"
+				counter++
+			else
+				jobs += "<td width='20%'><a href='?src=\ref[src];jobban3=[job.title];jobban4=\ref[M]'>[replacetext(job.title, " ", "&nbsp")]</a></td>"
+				counter++
+
+			if(counter >= 5) //So things dont get squiiiiished!
+				jobs += "</tr><tr align='center'>"
+				counter = 0
+
+		jobs += "</tr></table>"
+
+	//Non-Human (Aquamarine)
+		counter = 0
+		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
+		jobs += "<tr bgcolor='4dffdb'><th colspan='[length(nonhuman_positions)+1]'><a href='?src=\ref[src];jobban3=nonhumandept;jobban4=\ref[M]'>Non-human Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in nonhuman_positions)
 			if(!jobPos)
 				continue
@@ -852,10 +852,10 @@
 			jobs += "<td width='20%'><a href='?src=\ref[src];jobban3=AntagHUD;jobban4=\ref[M]'>AntagHUD</a></td>"
 		jobs += "</tr></table>"
 
-	//Antagonist (Orange)
+	//Antagonist (Brown)
 		var/isbanned_dept = jobban_isbanned(M, "Syndicate")
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='ffeeaa'><th colspan='10'><a href='?src=\ref[src];jobban3=Syndicate;jobban4=\ref[M]'>Antagonist Positions</a></th></tr><tr align='center'>"
+		jobs += "<tr bgcolor='b3a292'><th colspan='10'><a href='?src=\ref[src];jobban3=Syndicate;jobban4=\ref[M]'>Antagonist Positions</a></th></tr><tr align='center'>"
 
 		//Traitor
 		if(jobban_isbanned(M, "traitor") || isbanned_dept)
@@ -982,48 +982,48 @@
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("securitydept")
-				for(var/jobPos in security_positions)
+			if("poritarydept")
+				for(var/jobPos in poritary_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("engineeringdept")
-				for(var/jobPos in engineering_positions)
+			if("thaumaturgydept")
+				for(var/jobPos in thaumaturgy_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("medicaldept")
-				for(var/jobPos in medical_positions)
+			if("alchemydept")
+				for(var/jobPos in alchemy_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("sciencedept")
-				for(var/jobPos in science_positions)
+			if("magerydept")
+				for(var/jobPos in magery_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("civiliandept")
-				for(var/jobPos in civilian_positions)
+			if("staverydept")
+				for(var/jobPos in stavery_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("cargodept")
-				for(var/jobPos in cargo_positions)
+			if("trannelarydept")
+				for(var/jobPos in trannelary_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)
@@ -2982,7 +2982,7 @@
 				feedback_inc("admin_secrets_fun_used",1)
 				feedback_add_details("admin_secrets_fun_used","EgL")
 				for(var/obj/machinery/door/airlock/W in all_doors)
-					if(W.z == map.zMainStation && !istype(get_area(W), /area/bridge) && !istype(get_area(W), /area/crew_quarters) && !istype(get_area(W), /area/security/prison))
+					if(W.z == map.zMainStation && !istype(get_area(W), /area/bridge) && !istype(get_area(W), /area/crew_quarters) && !istype(get_area(W), /area/poritary/prison))
 						W.req_access = list()
 				message_admins("[key_name_admin(usr)] activated Egalitarian Station mode")
 				command_alert(/datum/command_alert/eagles)
@@ -3293,14 +3293,14 @@
 					if (access_maint_tunnels in M.req_access)
 						M.req_access = list()
 						M.req_one_access = list(access_brig,access_engine)
-				message_admins("[key_name_admin(usr)] made all maint doors engineering and brig access-only.")
+				message_admins("[key_name_admin(usr)] made all maint doors thaumaturgy and brig access-only.")
 			if("infinite_sec")
-				var/datum/job/J = job_master.GetJob("Security Officer")
+				var/datum/job/J = job_master.GetJob("Poritus")
 				if(!J)
 					return
 				J.total_positions = -1
 				J.spawn_positions = -1
-				message_admins("[key_name_admin(usr)] has removed the cap on security officers.")
+				message_admins("[key_name_admin(usr)] has removed the cap on poritii.")
 			if("virus_custom")
 				if(virus2_make_custom(usr.client))
 					feedback_add_details("admin_secrets_fun_used", "V_C")

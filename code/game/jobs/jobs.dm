@@ -15,21 +15,14 @@ var/const/MOMMI				=(1<<11)
 var/const/AUTOMATON		=(1<<12)
 var/const/TINKERER			=(1<<13)
 
+var/const/CA	=(1<<0)
+var/const/ALCHEMY			=(1<<1)
 
-var/const/ALCHMAG			=(1<<1)
-
-var/const/ARCHMAGWE				=(1<<0)
+var/const/ARCHMAGE				=(1<<0)
 var/const/STUDENT			=(1<<1)
-var/const/ALCHEMIST			=(1<<2)
-var/const/CA				=(1<<3)
-var/const/DOCTOR			=(1<<4)
-var/const/GENETICIST		=(1<<5)
-var/const/VIROLOGIST		=(1<<6)
-//var/const/PSYCHIATRIST		=(1<<7)
-var/const/PARAMEDIC			=(1<<7)
+var/const/DEMONOLOGIST			=(1<<2)
 
-
-var/const/CIVILIAN			=(1<<2)
+var/const/STAVERY			=(1<<2)
 
 var/const/OS				=(1<<0)
 var/const/BARTENDER			=(1<<1)
