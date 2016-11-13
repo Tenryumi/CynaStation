@@ -12,7 +12,7 @@
 
 // Command
 
-/datum/job/captain/New()
+/datum/job/headmaster/New()
 	..()
 	supervisors = "Nanotrasen and Central Command"
 

@@ -1,12 +1,12 @@
-/datum/job/captain
-	title = "Captain"
+/datum/job/headmaster
+	title = "Headmaster"
 	flag = CAPTAIN
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Nanotrasen officials and Space law"
-	selection_color = "#ccccff"
+	supervisors = "the Wizard Federation"
+	selection_color = "#ffccff"
 	idtype = /obj/item/weapon/card/id/gold
 	req_admin_notify = 1
 	access = list() 			//See get_access()
@@ -33,23 +33,17 @@
 		var/obj/item/clothing/under/U = new /obj/item/clothing/under/rank/captain(H)
 		U.attach_accessory(new /obj/item/clothing/accessory/medal/gold/captain)
 		H.equip_or_collect(U, slot_w_uniform)
+		H.equip_or_collect(new /obj/item/clothing/suit/wizrobe/headmasterrobe), slot_suit)
 		//H.equip_or_collect(new /obj/item/device/pda/captain(H), slot_belt)
 		H.equip_or_collect(new /obj/item/clothing/shoes/brown(H), slot_shoes)
-		H.equip_or_collect(new /obj/item/clothing/head/caphat(H), slot_head)
-		H.equip_or_collect(new /obj/item/clothing/glasses/sunglasses(H), slot_glasses)
+		H.equip_or_collect(new /obj/item/clothing/head/wizard/amp(H), slot_head)
 		if(H.backbag == 1)
 			H.put_in_hand(GRASP_RIGHT_HAND, new /obj/item/weapon/storage/box/ids(H))
 			H.put_in_hand(GRASP_LEFT_HAND, new /obj/item/weapon/gun/energy/gun(H))
 		else
 			H.equip_or_collect(new /obj/item/weapon/storage/box/ids(H.back), slot_in_backpack)
 			H.equip_or_collect(new /obj/item/weapon/gun/energy/gun(H), slot_in_backpack)
-		var/obj/item/weapon/implant/loyalty/L = new/obj/item/weapon/implant/loyalty(H)
-		L.imp_in = H
-		L.implanted = 1
-		to_chat(world, "<b>[H.real_name] is the captain!</b>")
-		var/datum/organ/external/affected = H.get_organ(LIMB_HEAD)
-		affected.implants += L
-		L.part = affected
+		to_chat(world, "<b>[H.real_name] is the headmaster!</b>")
 		return 1
 
 	get_access()

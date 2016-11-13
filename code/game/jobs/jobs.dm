@@ -1,26 +1,27 @@
 var/const/ENGSEC			=(1<<0)
 
-var/const/CAPTAIN			=(1<<0)
-var/const/HOS				=(1<<1)
+var/const/HEADMASTER			=(1<<0)
+var/const/HP				=(1<<1)
 var/const/WARDEN			=(1<<2)
 var/const/DETECTIVE			=(1<<3)
-var/const/OFFICER			=(1<<4)
-var/const/CHIEF				=(1<<5)
-var/const/ENGINEER			=(1<<6)
+var/const/PORITUS			=(1<<4)
+var/const/THATUMCHIEF				=(1<<5)
+var/const/THAUMATURGIST			=(1<<6)
 var/const/ATMOSTECH			=(1<<7)
 var/const/ROBOTICIST		=(1<<8)
 var/const/AI				=(1<<9)
 var/const/CYBORG			=(1<<10)
 var/const/MOMMI				=(1<<11)
-var/const/MECHANIC			=(1<<12)
+var/const/AUTOMATON		=(1<<12)
+var/const/TINKERER			=(1<<13)
 
 
-var/const/MEDSCI			=(1<<1)
+var/const/ALCHMAG			=(1<<1)
 
-var/const/RD				=(1<<0)
-var/const/SCIENTIST			=(1<<1)
-var/const/CHEMIST			=(1<<2)
-var/const/CMO				=(1<<3)
+var/const/ARCHMAGWE				=(1<<0)
+var/const/STUDENT			=(1<<1)
+var/const/ALCHEMIST			=(1<<2)
+var/const/CA				=(1<<3)
 var/const/DOCTOR			=(1<<4)
 var/const/GENETICIST		=(1<<5)
 var/const/VIROLOGIST		=(1<<6)
@@ -30,7 +31,7 @@ var/const/PARAMEDIC			=(1<<7)
 
 var/const/CIVILIAN			=(1<<2)
 
-var/const/HOP				=(1<<0)
+var/const/OS				=(1<<0)
 var/const/BARTENDER			=(1<<1)
 var/const/BOTANIST			=(1<<2)
 var/const/CHEF				=(1<<3)
@@ -52,69 +53,44 @@ var/list/assistant_occupations = list(
 
 
 var/list/command_positions = list(
-	"Captain",
-	"Head of Personnel",
-	"Head of Security",
-	"Chief Engineer",
-	"Research Director",
-	"Chief Medical Officer"
+	"Headmaster",
+	"Overseer",
+	"Poritary Commander",
+	"Chief Thaumaturgist",
+	"Archmage",
+	"Chief Alchemist",
 )
 
 
-var/list/engineering_positions = list(
-	"Chief Engineer",
-	"Station Engineer",
-	"Atmospheric Technician",
-	"Mechanic"
+var/list/thaumaturgy_positions = list(
+	"Chief Thaumaturgist",
 )
 
 
-var/list/medical_positions = list(
-	"Chief Medical Officer",
-	"Medical Doctor",
-	"Geneticist",
-	"Virologist",
-//	"Psychiatrist",
-	"Paramedic",
-	"Chemist"
+var/list/alchemy_positions = list(
+	"Chief Alchemist",
+
 )
 
 
-var/list/science_positions = list(
-	"Research Director",
-	"Scientist",
-	"Geneticist",	//Part of both medical and science
-	"Roboticist",
-	"Mechanic"
+var/list/magery_positions = list(
+	"Archmage",
+	"Student",
+	"Demonologist",
 )
 
 //BS12 EDIT
-var/list/civilian_positions = list(
-	"Head of Personnel",
-	"Bartender",
-	"Botanist",
-	"Chef",
-	"Janitor",
-	"Librarian",
-	"Internal Affairs Agent",
-	"Chaplain",
-	"Clown",
-	"Mime",
-	"Assistant"
+var/list/stavery_positions = list(
+	"Overseer",
 )
 
-var/list/cargo_positions = list(
-	"Head of Personnel",
-	"Quartermaster",
-	"Cargo Technician",
-	"Shaft Miner"
+var/list/trannelus_positions = list(
+	"Master Trannelus",
 )
 
-var/list/security_positions = list(
-	"Head of Security",
-	"Warden",
-	"Detective",
-	"Security Officer"
+var/list/poritary_positions = list(
+	"Poritary Commander",
+	"Poritus",
 )
 
 var/list/nonhuman_positions = list(
@@ -154,4 +130,3 @@ var/list/misc_positions = list(
 			titles = J.alt_titles
 
 	return titles
-
