@@ -16,11 +16,11 @@
 	..()
 	supervisors = "Nanotrasen and Central Command"
 
-/datum/job/hop/New()
+/datum/job/os/New()
 	..()
 	supervisors = "the captain and Central Command"
 
-/datum/job/hop/get_access()
+/datum/job/os/get_access()
 	return get_all_accesses()
 
 // Cargo

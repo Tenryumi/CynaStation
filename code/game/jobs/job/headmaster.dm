@@ -1,6 +1,6 @@
 /datum/job/headmaster
 	title = "Headmaster"
-	flag = CAPTAIN
+	flag = HEADMASTER
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 1
@@ -51,14 +51,14 @@
 
 
 
-/datum/job/hop
-	title = "Head of Personnel"
-	flag = HOP
-	department_flag = CIVILIAN
+/datum/job/os
+	title = "Overseer"
+	flag = OS
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the headmaster"
 	selection_color = "#ddddff"
 	idtype = /obj/item/weapon/card/id/silver
 	req_admin_notify = 1

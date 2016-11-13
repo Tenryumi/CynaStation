@@ -55,28 +55,19 @@ var/list/assistant_occupations = list(
 var/list/command_positions = list(
 	"Headmaster",
 	"Overseer",
-	"Poritary Commander",
-	"Chief Thaumaturgist",
-	"Archmage",
-	"Chief Alchemist",
 )
 
 
 var/list/thaumaturgy_positions = list(
-	"Chief Thaumaturgist",
 )
 
 
 var/list/alchemy_positions = list(
-	"Chief Alchemist",
 
 )
 
 
 var/list/magery_positions = list(
-	"Archmage",
-	"Student",
-	"Demonologist",
 )
 
 //BS12 EDIT
@@ -85,23 +76,15 @@ var/list/stavery_positions = list(
 )
 
 var/list/trannelus_positions = list(
-	"Master Trannelus",
 )
 
 var/list/poritary_positions = list(
-	"Poritary Commander",
-	"Poritus",
 )
 
 var/list/nonhuman_positions = list(
-	"AI",
-	"Cyborg",
-	"pAI",
-	"Mobile MMI"
 )
 
 var/list/misc_positions = list(
-	"Trader",
 )
 
 /proc/guest_jobbans(var/job)
