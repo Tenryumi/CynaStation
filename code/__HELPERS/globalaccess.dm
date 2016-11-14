@@ -2734,12 +2734,12 @@
 			global.all_jobs=newval;
 		if("job_master")
 			global.job_master=newval;
-		if("assistant_occupations")
-			global.assistant_occupations=newval;
+		if("civilian_occupations")
+			global.civilian_occupations=newval;
 		if("command_positions")
 			global.command_positions=newval;
-		if("engineering_positions")
-			global.engineering_positions=newval;
+		if("thaumaturgy_positions")
+			global.thaumaturgy_positions=newval;
 		if("alchemy_positions")
 			global.alchemy_positions=newval;
 		if("magery_positions")

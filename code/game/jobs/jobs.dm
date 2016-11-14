@@ -8,14 +8,18 @@ var/const/THAUMATURGIST			=(1<<4)
 var/const/AUTOMATON		=(1<<5)
 var/const/TINKERER			=(1<<6)
 
+var/const/ALCHEMY	=(1<<1)
+
 var/const/CA	=(1<<0)
 var/const/ALCHEMIST			=(1<<1)
+
+var/const/MAGERY	=(1<<2)
 
 var/const/ARCHMAGE				=(1<<0)
 var/const/STUDENT			=(1<<1)
 var/const/DEMONOLOGIST			=(1<<2)
 
-var/const/STAVERY			=(1<<2)
+var/const/STAVERY			=(1<<3)
 
 var/const/OS				=(1<<0)
 var/const/BARTENDER			=(1<<1)

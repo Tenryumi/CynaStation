@@ -52,7 +52,6 @@ var/list/role_wiki=list(
 	ROLE_BLOB		= "Blob",
 	ROLE_BORER		= "Cortical_Borer",
 	ROLE_CHANGELING	= "Changeling",
-	ROLE_CULTIST	= "Cult",
 	ROLE_PLANT		= "Dionaea",
 	ROLE_MALF		= "Guide_to_Malfunction",
 	ROLE_OPERATIVE	= "Nuclear_Agent",
@@ -62,7 +61,6 @@ var/list/role_wiki=list(
 	ROLE_TRAITOR	= "Traitor",
 	ROLE_VAMPIRE	= "Vampire",
 	ROLE_VOXRAIDER	= "Vox_Raider",
-	ROLE_WIZARD		= "Wizard",
 )
 
 var/const/MAX_SAVE_SLOTS = 8
