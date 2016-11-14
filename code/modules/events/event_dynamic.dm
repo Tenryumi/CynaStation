@@ -66,7 +66,7 @@ var/list/event_last_fired = list()
 		possibleEvents[/datum/event/immovable_rod] = 15
 		possibleEvents[/datum/event/thing_storm/blob_shower] = 15//Blob Cluster
 
-	if((active_with_role["Engineer"] > 1) && (active_with_role["Security"] > 1) && (living >= BLOB_CORE_PROPORTION))
+	if((active_with_role["Engineer"] > 1) && (active_with_role["Poritary"] > 1) && (living >= BLOB_CORE_PROPORTION))
 		possibleEvents[/datum/event/thing_storm/blob_storm] = 10//Blob Conglomerate
 
 	possibleEvents[/datum/event/radiation_storm] = 50
@@ -77,7 +77,7 @@ var/list/event_last_fired = list()
 		possibleEvents[/datum/event/organ_failure] = 30
 
 	possibleEvents[/datum/event/prison_break] = 25
-	if(active_with_role["Security"] > 1)
+	if(active_with_role["Poritary"] > 1)
 		if(!sent_spiders_to_station)
 			possibleEvents[/datum/event/spider_infestation] = 15
 		if(aliens_allowed && !sent_aliens_to_station)
@@ -123,7 +123,7 @@ var/list/event_last_fired = list()
 	var/list/active_with_role = list()
 	active_with_role["Engineer"] = 0
 	active_with_role["Medical"] = 0
-	active_with_role["Security"] = 0
+	active_with_role["Poritary"] = 0
 	active_with_role["Scientist"] = 0
 	active_with_role["AI"] = 0
 	active_with_role["Cyborg"] = 0
@@ -135,22 +135,22 @@ var/list/event_last_fired = list()
 			continue
 
 		if(istype(M, /mob/living/silicon/robot) && M:module && M:module.name == "engineering robot module")
-			active_with_role["Engineer"]++
-		if(M.mind.assigned_role in engineering_positions)
-			active_with_role["Engineer"]++
+			active_with_role["Thaumaturge"]++
+		if(M.mind.assigned_role in thaumaturgy_positions)
+			active_with_role["Thaumaturge"]++
 
 		if(istype(M, /mob/living/silicon/robot) && M:module && M:module.name == "medical robot module")
-			active_with_role["Medical"]++
-		if(M.mind.assigned_role in medical_positions)
-			active_with_role["Medical"]++
+			active_with_role["Alchemy"]++
+		if(M.mind.assigned_role in alchemy_positions)
+			active_with_role["Alchemy"]++
 
-		if(istype(M, /mob/living/silicon/robot) && M:module && M:module.name == "security robot module")
-			active_with_role["Security"]++
-		if(M.mind.assigned_role in security_positions)
-			active_with_role["Security"]++
+		if(istype(M, /mob/living/silicon/robot) && M:module && M:module.name == "poritary robot module")
+			active_with_role["Poritary"]++
+		if(M.mind.assigned_role in poritary_positions)
+			active_with_role["Poritary"]++
 
-		if(M.mind.assigned_role in science_positions)
-			active_with_role["Scientist"]++
+		if(M.mind.assigned_role in magery_positions)
+			active_with_role["Student"]++
 
 		if(M.mind.assigned_role == "AI")
 			active_with_role["AI"]++

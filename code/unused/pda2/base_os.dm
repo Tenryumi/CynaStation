@@ -51,7 +51,7 @@
 
 			switch(src.mode)
 				if(0)
-					dat += "<h2>PERSONAL DATA ASSISTANT</h2>"
+					dat += "<h2>PERSONAL DATA CIVILIAN</h2>"
 					dat += "Owner: [src.master.owner]<br><br>"
 
 					dat += "<h4>General Functions</h4>"

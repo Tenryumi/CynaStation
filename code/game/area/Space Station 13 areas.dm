@@ -1446,7 +1446,7 @@ proc/process_adminbus_teleport_locs()
 	name = "\improper Brig"
 	icon_state = "brig"
 
-/area/security/prison
+/area/poritary/prison
 	name = "\improper Prison Wing"
 	icon_state = "sec_prison"
 

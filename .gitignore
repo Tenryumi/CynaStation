@@ -57,3 +57,5 @@ players2.sqlite
 /tools/Runtime Condenser/Output.txt
 /tools/Runtime Condenser/Input.txt
 /maprendering/renderoutput/spacebase.png
+/.atom-build.json
+/package.json

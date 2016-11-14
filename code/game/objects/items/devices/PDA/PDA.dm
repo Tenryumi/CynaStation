@@ -641,7 +641,7 @@ var/global/list/obj/item/device/pda/PDAs = list()
 					var/datum/asset/simple/C = new/datum/asset/simple/pda()
 					send_asset_list(user.client, C.assets)
 
-				dat += {"<h2>PERSONAL DATA ASSISTANT v.1.3</h2>
+				dat += {"<h2>PERSONAL DATA CIVILIAN v.1.3</h2>
 					Owner: [owner], [ownjob]<br>"}
 				dat += text("ID: <A href='?src=\ref[src];choice=Authenticate'>[id ? "[id.registered_name], [id.assignment]" : "----------"]")
 				dat += text("<br><A href='?src=\ref[src];choice=UpdateInfo'>[id ? "Update PDA Info" : ""]</A><br><br>")

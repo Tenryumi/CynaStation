@@ -93,22 +93,22 @@
 		if(real_rank in command_positions)
 			heads[name] = rank
 			department = 1
-		if(real_rank in security_positions)
+		if(real_rank in poritary_positions)
 			sec[name] = rank
 			department = 1
-		if(real_rank in engineering_positions)
+		if(real_rank in thaumaturgy_positions)
 			eng[name] = rank
 			department = 1
-		if(real_rank in medical_positions)
+		if(real_rank in alchemy_positions)
 			med[name] = rank
 			department = 1
-		if(real_rank in science_positions)
+		if(real_rank in magery_positions)
 			sci[name] = rank
 			department = 1
-		if(real_rank in cargo_positions)
+		if(real_rank in trannelary_positions)
 			cgo[name] = rank
 			department = 1
-		if(real_rank in civilian_positions)
+		if(real_rank in stavery_positions)
 			civ[name] = rank
 			department = 1
 		if(real_rank in nonhuman_positions)
@@ -213,37 +213,37 @@ var/global/list/PDA_Manifest = list()
 			if(rank=="Captain" && heads.len != 1)
 				heads.Swap(1,heads.len)
 
-		if(real_rank in security_positions)
+		if(real_rank in poritary_positions)
 			sec[++sec.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && sec.len != 1)
 				sec.Swap(1,sec.len)
 
-		if(real_rank in engineering_positions)
+		if(real_rank in thaumaturgy_positions)
 			eng[++eng.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && eng.len != 1)
 				eng.Swap(1,eng.len)
 
-		if(real_rank in medical_positions)
+		if(real_rank in alchemy_positions)
 			med[++med.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && med.len != 1)
 				med.Swap(1,med.len)
 
-		if(real_rank in science_positions)
+		if(real_rank in magery_positions)
 			sci[++sci.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && sci.len != 1)
 				sci.Swap(1,sci.len)
 
-		if(real_rank in cargo_positions)
+		if(real_rank in trannelary_positions)
 			cgo[++cgo.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && cgo.len != 1)
 				cgo.Swap(1,cgo.len)
 
-		if(real_rank in civilian_positions)
+		if(real_rank in stavery_positions)
 			civ[++civ.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && civ.len != 1)

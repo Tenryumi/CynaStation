@@ -289,9 +289,9 @@ SELECT
     jobs.player_ckey,
     jobs.player_slot,
     jobs.alternate_option,
-    jobs.job_civilian_high,
-    jobs.job_civilian_med,
-    jobs.job_civilian_low,
+    jobs.job_stavery_high,
+    jobs.job_stavery_med,
+    jobs.job_stavery_low,
     jobs.job_medsci_high,
     jobs.job_medsci_med,
     jobs.job_medsci_low,
@@ -409,9 +409,9 @@ AND players.player_slot = ? ;"}, ckey, slot)
 	organ_data["liver"] = preference_list["liver"]
 
 	alternate_option	= text2num(preference_list["alternate_option"])
-	job_civilian_high	= text2num(preference_list["job_civilian_high"])
-	job_civilian_med	= text2num(preference_list["job_civilian_med"])
-	job_civilian_low	= text2num(preference_list["job_civilian_low"])
+	job_stavery_high	= text2num(preference_list["job_stavery_high"])
+	job_stavery_med	= text2num(preference_list["job_stavery_med"])
+	job_stavery_low	= text2num(preference_list["job_stavery_low"])
 	job_medsci_high		= text2num(preference_list["job_medsci_high"])
 	job_medsci_med		= text2num(preference_list["job_medsci_med"])
 	job_medsci_low		= text2num(preference_list["job_medsci_low"])
@@ -456,9 +456,9 @@ AND players.player_slot = ? ;"}, ckey, slot)
 	//be_special      = sanitize_integer(be_special, 0, 65535, initial(be_special))
 
 	alternate_option = sanitize_integer(alternate_option, 0, 2, initial(alternate_option))
-	job_civilian_high = sanitize_integer(job_civilian_high, 0, 65535, initial(job_civilian_high))
-	job_civilian_med = sanitize_integer(job_civilian_med, 0, 65535, initial(job_civilian_med))
-	job_civilian_low = sanitize_integer(job_civilian_low, 0, 65535, initial(job_civilian_low))
+	job_stavery_high = sanitize_integer(job_stavery_high, 0, 65535, initial(job_stavery_high))
+	job_stavery_med = sanitize_integer(job_stavery_med, 0, 65535, initial(job_stavery_med))
+	job_stavery_low = sanitize_integer(job_stavery_low, 0, 65535, initial(job_stavery_low))
 	job_medsci_high = sanitize_integer(job_medsci_high, 0, 65535, initial(job_medsci_high))
 	job_medsci_med = sanitize_integer(job_medsci_med, 0, 65535, initial(job_medsci_med))
 	job_medsci_low = sanitize_integer(job_medsci_low, 0, 65535, initial(job_medsci_low))
@@ -529,9 +529,9 @@ AND players.player_slot = ? ;"}, ckey, slot)
 
 	//Jobs
 	S["alternate_option"]	>> alternate_option
-	S["job_civilian_high"]	>> job_civilian_high
-	S["job_civilian_med"]	>> job_civilian_med
-	S["job_civilian_low"]	>> job_civilian_low
+	S["job_stavery_high"]	>> job_stavery_high
+	S["job_stavery_med"]	>> job_stavery_med
+	S["job_stavery_low"]	>> job_stavery_low
 	S["job_medsci_high"]	>> job_medsci_high
 	S["job_medsci_med"]		>> job_medsci_med
 	S["job_medsci_low"]		>> job_medsci_low
@@ -584,9 +584,9 @@ AND players.player_slot = ? ;"}, ckey, slot)
 	backbag			= sanitize_integer(backbag, 1, backbaglist.len, initial(backbag))
 
 	alternate_option = sanitize_integer(alternate_option, 0, 2, initial(alternate_option))
-	job_civilian_high = sanitize_integer(job_civilian_high, 0, 65535, initial(job_civilian_high))
-	job_civilian_med = sanitize_integer(job_civilian_med, 0, 65535, initial(job_civilian_med))
-	job_civilian_low = sanitize_integer(job_civilian_low, 0, 65535, initial(job_civilian_low))
+	job_stavery_high = sanitize_integer(job_stavery_high, 0, 65535, initial(job_stavery_high))
+	job_stavery_med = sanitize_integer(job_stavery_med, 0, 65535, initial(job_stavery_med))
+	job_stavery_low = sanitize_integer(job_stavery_low, 0, 65535, initial(job_stavery_low))
 	job_medsci_high = sanitize_integer(job_medsci_high, 0, 65535, initial(job_medsci_high))
 	job_medsci_med = sanitize_integer(job_medsci_med, 0, 65535, initial(job_medsci_med))
 	job_medsci_low = sanitize_integer(job_medsci_low, 0, 65535, initial(job_medsci_low))
@@ -731,16 +731,16 @@ AND players.player_slot = ? ;"}, ckey, slot)
 	check.Add("SELECT player_ckey FROM jobs WHERE player_ckey = ? AND player_slot = ?", ckey, slot)
 	if(check.Execute(db))
 		if(!check.NextRow())
-			q.Add("INSERT INTO jobs (player_ckey,player_slot,alternate_option,job_civilian_high,job_civilian_med,job_civilian_low,job_medsci_high,job_medsci_med,job_medsci_low,job_engsec_high,job_engsec_med,job_engsec_low) \
-					VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", ckey, slot, alternate_option, job_civilian_high, job_civilian_med, job_civilian_low, job_medsci_high, job_medsci_med, job_medsci_low, job_engsec_high, job_engsec_med, job_engsec_low)
+			q.Add("INSERT INTO jobs (player_ckey,player_slot,alternate_option,job_stavery_high,job_stavery_med,job_stavery_low,job_medsci_high,job_medsci_med,job_medsci_low,job_engsec_high,job_engsec_med,job_engsec_low) \
+					VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", ckey, slot, alternate_option, job_stavery_high, job_stavery_med, job_stavery_low, job_medsci_high, job_medsci_med, job_medsci_low, job_engsec_high, job_engsec_med, job_engsec_low)
 			if(!q.Execute(db))
 				message_admins("Error #: [q.Error()] - [q.ErrorMsg()]")
 				WARNING("Error #:[q.Error()] - [q.ErrorMsg()]")
 				return 0
 			to_chat(user, "Created Job list")
 		else
-			q.Add("UPDATE jobs SET alternate_option=?,job_civilian_high=?,job_civilian_med=?,job_civilian_low=?,job_medsci_high=?,job_medsci_med=?,job_medsci_low=?,job_engsec_high=?,job_engsec_med=?,job_engsec_low=? WHERE player_ckey = ? AND player_slot = ?",\
-									alternate_option, job_civilian_high, job_civilian_med, job_civilian_low, job_medsci_high, job_medsci_med, job_medsci_low, job_engsec_high, job_engsec_med, job_engsec_low, ckey, slot)
+			q.Add("UPDATE jobs SET alternate_option=?,job_stavery_high=?,job_stavery_med=?,job_stavery_low=?,job_medsci_high=?,job_medsci_med=?,job_medsci_low=?,job_engsec_high=?,job_engsec_med=?,job_engsec_low=? WHERE player_ckey = ? AND player_slot = ?",\
+									alternate_option, job_stavery_high, job_stavery_med, job_stavery_low, job_medsci_high, job_medsci_med, job_medsci_low, job_engsec_high, job_engsec_med, job_engsec_low, ckey, slot)
 			if(!q.Execute(db))
 				message_admins("Error #: [q.Error()] - [q.ErrorMsg()]")
 				WARNING("Error #:[q.Error()] - [q.ErrorMsg()]")
@@ -846,9 +846,9 @@ AND players.player_slot = ? ;"}, ckey, slot)
 
 	//Jobs
 	S["alternate_option"]      << alternate_option
-	S["job_civilian_high"]     << job_civilian_high
-	S["job_civilian_med"]      << job_civilian_med
-	S["job_civilian_low"]      << job_civilian_low
+	S["job_stavery_high"]     << job_stavery_high
+	S["job_stavery_med"]      << job_stavery_med
+	S["job_stavery_low"]      << job_stavery_low
 	S["job_medsci_high"]       << job_medsci_high
 	S["job_medsci_med"]        << job_medsci_med
 	S["job_medsci_low"]        << job_medsci_low

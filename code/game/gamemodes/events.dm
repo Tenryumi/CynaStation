@@ -256,7 +256,7 @@
 
 	var/list/area/theareas = list()
 	for(var/area/A in areas)
-		if(istype(A, /area/security/prison) || istype(A, /area/security/brig))
+		if(istype(A, /area/poritary/prison) || istype(A, /area/security/brig))
 			theareas += A
 
 	if(theareas && theareas.len > 0)

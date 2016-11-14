@@ -69,7 +69,7 @@ var/const/MAX_SAVE_SLOTS = 8
 
 //used for alternate_option
 #define GET_RANDOM_JOB 0
-#define BE_ASSISTANT 1
+#define BE_CIVILIAN 1
 #define RETURN_TO_LOBBY 2
 #define POLLED_LIMIT	300
 
@@ -460,7 +460,7 @@ var/const/MAX_SAVE_SLOTS = 8
 			var/available_in_days = job.available_in_days(user.client)
 			HTML += "<font color=red>[rank]</font></td><td><font color=red> \[IN [(available_in_days)] DAYS]</font></td></tr>"
 			continue
-		if((job_stavery_low & ASSISTANT) && (rank != "Assistant"))
+		if((job_stavery_low & CIVILIAN) && (rank != "Assistant"))
 			HTML += "<font color=orange>[rank]</font></td><td></td></tr>"
 			continue
 		if((rank in command_positions) || (rank == "AI"))//Bold head jobs
@@ -541,7 +541,7 @@ var/const/MAX_SAVE_SLOTS = 8
 	switch(alternate_option)
 		if(GET_RANDOM_JOB)
 			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Get random job if preferences unavailable</a></center><br>"
-		if(BE_ASSISTANT)
+		if(BE_CIVILIAN)
 			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Be assistant if preference unavailable</a></center><br>"
 		if(RETURN_TO_LOBBY)
 			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Return to lobby if preference unavailable</a></center><br>"
@@ -938,7 +938,7 @@ NOTE:  The change will take effect AFTER any current recruiting periods."}
 				ResetJobs()
 				SetChoices(user)
 			if("random")
-				if(alternate_option == GET_RANDOM_JOB || alternate_option == BE_ASSISTANT)
+				if(alternate_option == GET_RANDOM_JOB || alternate_option == BE_CIVILIAN)
 					alternate_option += 1
 				else if(alternate_option == RETURN_TO_LOBBY)
 					alternate_option = 0
