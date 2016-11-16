@@ -379,6 +379,7 @@
 #include "code\game\jobs\job\civilian.dm"
 #include "code\game\jobs\job\headmaster.dm"
 #include "code\game\jobs\job\job.dm"
+#include "code\game\jobs\job\stavery.dm"
 #include "code\game\jobs\job\whitelisted.dm"
 #include "code\game\machinery\adv_med.dm"
 #include "code\game\machinery\ai_slipper.dm"

@@ -999,8 +999,8 @@
 			return global.alchemy_positions;
 		if("magery_positions")
 			return global.magery_positions;
-		if("civilian_positions")
-			return global.civilian_positions;
+		if("stavery_positions")
+			return global.stavery_positions;
 		if("trannelary_positions")
 			return global.trannelary_positions;
 		if("poritary_positions")

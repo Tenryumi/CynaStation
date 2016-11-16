@@ -276,14 +276,14 @@
 	if(!job.player_old_enough(src.client))
 		return 0
 	// assistant limits
-	if(config.assistantlimit)
+	if(config.civilianlimit)
 		if(job.title == "Assistant")
 			var/count = 0
 			var/datum/job/officer = job_master.GetJob("Security Officer")
 			var/datum/job/warden = job_master.GetJob("Warden")
 			var/datum/job/hos = job_master.GetJob("Head of Security")
 			count += (officer.current_positions + warden.current_positions + hos.current_positions)
-			if(job.current_positions > (config.assistantratio * count))
+			if(job.current_positions > (config.civilianratio * count))
 				if(count >= 5) // if theres more than 5 security on the station just let assistants join regardless, they should be able to handle the tide
 					. = 1
 				else

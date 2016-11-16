@@ -157,7 +157,7 @@
 	data["magery_jobs"] = format_jobs(magery_positions)
 	data["poritary_jobs"] = format_jobs(poritary_positions)
 	data["trannelary_jobs"] = format_jobs(trannelary_positions)
-	data["civilian_jobs"] = format_jobs(civilian_positions)
+	data["stavery_jobs"] = format_jobs(stavery_positions)
 	data["centcom_jobs"] = format_jobs(get_all_centcom_jobs())
 	data["card_skins"] = format_card_skins(card_skins)
 	data["cent_card_skins"] = format_card_skins(cent_card_skins)

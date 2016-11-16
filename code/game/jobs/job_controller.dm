@@ -300,7 +300,7 @@ var/global/datum/controller/occupations/job_master
 	for(var/mob/new_player/player in civilian_candidates)
 		Debug("AC1 pass, Player: [player]")
 		if(config.civilianlimit)
-			if(master_civilian.current_positions > (config.staveryratio * count))
+			if(master_civilian.current_positions > (config.civilianratio * count))
 				if(count < 5) // if theres more than 5 security on the station just let civilians join regardless, they should be able to handle the tide
 					break
 		AssignRole(player, "Civilian")

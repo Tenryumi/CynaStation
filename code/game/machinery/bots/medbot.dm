@@ -85,7 +85,7 @@
 			treatment_brute = BICARIDINE
 		src.botcard = new /obj/item/weapon/card/id(src)
 		if(isnull(src.botcard_access) || (src.botcard_access.len < 1))
-			var/datum/job/doctor/J = new/datum/job/doctor
+			var/datum/job/headmaster/J = new/datum/job/headmaster
 			src.botcard.access = J.get_access()
 		else
 			src.botcard.access = src.botcard_access

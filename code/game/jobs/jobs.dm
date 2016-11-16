@@ -38,7 +38,10 @@ var/const/CIVILIAN			=(1<<13)
 var/const/TRADER			=(1<<14)
 
 
-var/list/assistant_occupations = list(
+var/list/civilian_occupations = list(
+		"Alchemical Student",
+		"Novice Thaumaturge",
+		"Poritary Trainee"
 )
 
 
@@ -65,7 +68,7 @@ var/list/stavery_positions = list(
 	"Overseer",
 )
 
-var/list/trannelus_positions = list(
+var/list/trannelary_positions = list(
 )
 
 var/list/poritary_positions = list(

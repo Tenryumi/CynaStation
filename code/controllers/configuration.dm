@@ -529,10 +529,10 @@
 
 				if("req_cult_ghostwriter")
 					config.cult_ghostwriter_req_cultists = value
-				if("assistant_limit")
-					config.assistantlimit = 1
-				if("assistant_ratio")
-					config.assistantratio = text2num(value)
+				if("civilian_limit")
+					config.civilianlimit = 1
+				if("civilian_ratio")
+					config.civilianratio = text2num(value)
 				if("copy_logs")
 					copy_logs = value
 				if("media_base_url")

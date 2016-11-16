@@ -20,4 +20,14 @@ var/list/station_departments = list("Command", "Alchemy", "Thaumaturgy", "Magery
 /datum/job/ca/department = "Alchemy"
 /datum/job/headmaster/head_position = 1
 
-/datum/job/alchemist
+/datum/job/alchemist/department = "Alchemy"
+
+/datum/job/civilian/department = "Stavery"
+
+/datum/job/bartender/department = "Stavery"
+
+/datum/job/chef/department = "Stavery"
+
+/datum/job/hydro/department = "Stavery"
+
+/datum/job/janitor/department = "Stavery"
