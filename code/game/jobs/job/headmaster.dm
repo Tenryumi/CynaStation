@@ -6,7 +6,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Wizard Federation"
-	selection_color = "#ffccff"
+	selection_color = "#ff99ff"
 	idtype = /obj/item/weapon/card/id/gold
 	req_admin_notify = 1
 	access = list() 			//See get_access()
@@ -41,8 +41,9 @@
 			H.put_in_hand(GRASP_RIGHT_HAND, new /obj/item/weapon/storage/box/ids(H))
 			H.put_in_hand(GRASP_LEFT_HAND, new /obj/item/weapon/gun/energy/gun(H))
 		else
-			H.equip_or_collect(new /obj/item/weapon/storage/box/ids(H.back), slot_in_backpack)
 			H.equip_or_collect(new /obj/item/weapon/gun/energy/gun(H), slot_in_backpack)
+			H.equip_or_collect(new /obj/item/weapon/spellbook(H), slot_in_backpack)
+
 		to_chat(world, "<b>[H.real_name] is the headmaster!</b>")
 		return 1
 
@@ -59,7 +60,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the headmaster"
-	selection_color = "#ddddff"
+	selection_color = "#ffccff"
 	idtype = /obj/item/weapon/card/id/silver
 	req_admin_notify = 1
 	minimal_player_age = 10
