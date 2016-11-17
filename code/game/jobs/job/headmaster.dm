@@ -30,9 +30,10 @@
 			if(4)
 				H.equip_or_collect(new /obj/item/weapon/storage/backpack/satchel(H), slot_back)
 		H.equip_or_collect(new H.species.survival_gear(H.back), slot_in_backpack)
-		var/obj/item/clothing/under/U = new /obj/item/clothing/under/rank/captain(H)
-		U.attach_accessory(new /obj/item/clothing/accessory/medal/gold/captain)
-		H.equip_or_collect(U, slot_w_uniform)
+		if(H.gender == FEMALE)
+			H.equip_or_collect(new /obj/item/clothing/under/suit_jacket/female(H), slot_w_uniform)
+		else
+			H.equip_or_collect(new /obj/item/clothing/under/suit_jacket(H), slot_w_uniform)
 		H.equip_or_collect(new /obj/item/clothing/suit/wizrobe/headmasterrobe, slot_wear_suit)
 		//H.equip_or_collect(new /obj/item/device/pda/captain(H), slot_belt)
 		H.equip_or_collect(new /obj/item/clothing/shoes/sandal(H), slot_shoes)
