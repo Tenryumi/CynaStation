@@ -1,0 +1,7 @@
+Headmaster=1
+Overseer=1
+
+Civilian=1
+Bartender=1
+Chef=1
+Janitor=1
