@@ -89,7 +89,7 @@
 "bK" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/wall/r_wall,/area/academy/test1)
 "bL" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
 "bM" = (/obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden,/turf/simulated/floor,/area/academy/test1)
-"bN" = (/obj/effect/landmark/start{name = "Captain"},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
+"bN" = (/obj/effect/landmark/start{name = "Headmaster"},/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/turf/simulated/floor,/area/academy/test1)
 "bO" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor,/area/academy/test1)
 "bP" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 10},/turf/simulated/floor,/area/academy/test1)
 "bQ" = (/obj/machinery/atmospherics/pipe/simple/cyan/hidden{dir = 6},/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/academy/test1)
