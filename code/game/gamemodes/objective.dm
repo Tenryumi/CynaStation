@@ -191,7 +191,7 @@ var/list/potential_theft_objectives=list(
 /datum/objective/anti_revolution/demote/find_target()
 	..()
 	if(target && target.current)
-		explanation_text = "[target.current.real_name], the [target.assigned_role]  has been classified as harmful to Nanotrasen's goals. Demote \him[target.current] to assistant."
+		explanation_text = "[target.current.real_name], the [target.assigned_role]  has been classified as harmful to Nanotrasen's goals. Demote \him[target.current] to civilian."
 	else
 		explanation_text = "Free Objective"
 	return target
@@ -199,7 +199,7 @@ var/list/potential_theft_objectives=list(
 /datum/objective/anti_revolution/demote/find_target_by_role(role, role_type=0)
 	..(role, role_type)
 	if(target && target.current)
-		explanation_text = "[target.current.real_name], the [!role_type ? target.assigned_role : target.special_role] has been classified as harmful to Nanotrasen's goals. Demote \him[target.current] to assistant."
+		explanation_text = "[target.current.real_name], the [!role_type ? target.assigned_role : target.special_role] has been classified as harmful to Nanotrasen's goals. Demote \him[target.current] to civilian."
 	else
 		explanation_text = "Free Objective"
 	return target
@@ -216,7 +216,7 @@ var/list/potential_theft_objectives=list(
 		if(!istype(I))
 			return 1
 
-		if(I.assignment == "Assistant")
+		if(I.assignment == "Civilian")
 			return 1
 		else
 			return 0

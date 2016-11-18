@@ -1369,7 +1369,7 @@ proc/clear_memory(var/silent = 1)
 /mob/living/carbon/human/mind_initialize()
 	..()
 	if(!mind.assigned_role)
-		mind.assigned_role = "Assistant"	//defualt
+		mind.assigned_role = "Civilian"	//defualt
 
 //MONKEY
 /mob/living/carbon/monkey/mind_initialize()

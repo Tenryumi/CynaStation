@@ -12,7 +12,7 @@ var/list/station_departments = list("Command", "Medical", "Engineering", "Scienc
 /datum/job/hop/department = "Stavery"
 /datum/job/hop/head_position = 1
 
-/datum/job/assistant/department = "Stavery"
+/datum/job/civilian/department = "Stavery"
 
 /datum/job/bartender/department = "Stavery"
 

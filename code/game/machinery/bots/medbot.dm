@@ -355,7 +355,7 @@
 		return 0 //welp too late for them!
 
 	if(C.suiciding)
-		return 0 //Kevorkian school of robotic medical assistants.
+		return 0 //Kevorkian school of robotic medical civilians.
 
 	if(src.emagged == 2) //Everyone needs our medicine. (Our medicine is toxins)
 		return 1

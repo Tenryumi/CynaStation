@@ -1,5 +1,5 @@
-/datum/job/assistant
-	title = "Assistant"
+/datum/job/civilian
+	title = "Civilian"
 	flag = ASSISTANT
 	department_flag = CIVILIAN
 	faction = "Station"
@@ -7,13 +7,13 @@
 	spawn_positions = -1
 	supervisors = "absolutely everyone"
 	selection_color = "#dddddd"
-	access = list()			//See /datum/job/assistant/get_access()
-	minimal_access = list()	//See /datum/job/assistant/get_access()
-	alt_titles = list("Technical Assistant","Medical Intern","Research Assistant","Security Cadet")
+	access = list()			//See /datum/job/civilian/get_access()
+	minimal_access = list()	//See /datum/job/civilian/get_access()
+	alt_titles = list("Technical Civilian","Medical Intern","Research Civilian","Security Cadet")
 
-	no_random_roll = 1 //Don't become assistant randomly
+	no_random_roll = 1 //Don't become civilian randomly
 
-/datum/job/assistant/equip(var/mob/living/carbon/human/H)
+/datum/job/civilian/equip(var/mob/living/carbon/human/H)
 	if(!H)
 		return 0
 	H.equip_or_collect(new /obj/item/clothing/under/color/grey(H), slot_w_uniform)
@@ -21,8 +21,8 @@
 	H.equip_or_collect(new H.species.survival_gear(H.back), slot_in_backpack)
 	return 1
 
-/datum/job/assistant/get_access()
-	if(config.assistant_maint)
+/datum/job/civilian/get_access()
+	if(config.civilian_maint)
 		return list(access_maint_tunnels)
 	else
 		return list()

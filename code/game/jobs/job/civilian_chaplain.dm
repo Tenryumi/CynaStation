@@ -170,7 +170,7 @@
 				deity_name = "The God-Emperor of Mankind"
 			if("toolboxia", "toolbox")
 				B.name = "The Toolbox Manifesto"
-				J = "Chief Assistant"
+				J = "Chief Civilian"
 				deity_name = "The Toolbox"
 			if("homosexuality", "faggotry", "gayness", "gay", "penis", "faggot", "cock", "cocks", "dick", "dicks")
 				qdel(B)

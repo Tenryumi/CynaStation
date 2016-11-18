@@ -142,7 +142,7 @@
 
 	var/use_recursive_explosions //Defines whether the server uses recursive or circular explosions.
 
-	var/assistant_maint = 0 //Do assistants get maint access?
+	var/civilian_maint = 0 //Do civilians get maint access?
 	var/gateway_delay = 18000 //How long the gateway takes before it activates. Default is half an hour.
 	var/ghost_interaction = 0
 
@@ -155,8 +155,8 @@
 	var/irc_bot_server_id = 45678
 	var/python_path = "" //Path to the python executable.  Defaults to "python" on windows and "/usr/bin/env python2" on unix
 
-	var/assistantlimit = 0 //enables assistant limiting
-	var/assistantratio = 2 //how many assistants to security members
+	var/civilianlimit = 0 //enables civilian limiting
+	var/civilianratio = 2 //how many civilians to security members
 
 	var/emag_energy = -1
 	var/emag_starts_charged = 1
@@ -482,8 +482,8 @@
 					limitalienplayers = 1
 					alien_to_human_ratio = text2num(value)
 
-				if("assistant_maint")
-					config.assistant_maint = 1
+				if("civilian_maint")
+					config.civilian_maint = 1
 
 				if("gateway_delay")
 					config.gateway_delay = text2num(value)
@@ -529,10 +529,10 @@
 
 				if("req_cult_ghostwriter")
 					config.cult_ghostwriter_req_cultists = value
-				if("assistant_limit")
-					config.assistantlimit = 1
-				if("assistant_ratio")
-					config.assistantratio = text2num(value)
+				if("civilian_limit")
+					config.civilianlimit = 1
+				if("civilian_ratio")
+					config.civilianratio = text2num(value)
 				if("copy_logs")
 					copy_logs = value
 				if("media_base_url")

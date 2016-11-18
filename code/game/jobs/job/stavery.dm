@@ -393,7 +393,7 @@
 
 
 
-//More or less assistants
+//More or less civilians
 /datum/job/librarian
 	title = "Librarian"
 	flag = LIBRARIAN

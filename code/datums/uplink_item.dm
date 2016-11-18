@@ -226,20 +226,20 @@ var/list/uplink_items = list()
 	job = list("Janitor")
 
 
-//Assistant
+//Civilian
 /datum/uplink_item/jobspecific/pickpocketgloves
 	name = "Pickpocket's Gloves"
 	desc = "A pair of sleek gloves to aid in pickpocketing, while wearing these you can sneakily empty pockets and strip clothing with nobody seeing you. Pickpocketed items will also be put into your hand rather than fall to the ground."
 	item = /obj/item/clothing/gloves/black/thief
 	cost = 3
-	job = list("Assistant")
+	job = list("Civilian")
 
 /datum/uplink_item/jobspecific/greytide
 	name = "Greytide Implant"
 	desc = "A box containing an implanter filled with a greytide implant when injected into another person makes them loyal to the greytide and your cause, unless of course they're already implanted by someone else. Loyalty ends if the implant is no longer in their system."
 	item = /obj/item/weapon/storage/box/syndie_kit/greytide
 	cost = 7
-	job = list("Assistant")
+	job = list("Civilian")
 
 //Bartender
 /datum/uplink_item/jobspecific/drunkbullets
@@ -387,7 +387,7 @@ var/list/uplink_items = list()
 
 /datum/uplink_item/stealthy_weapons/detomatix
 	name = "Detomatix PDA Cartridge"
-	desc = "When inserted into a personal digital assistant, this cartridge gives you five opportunities to detonate PDAs of crewmembers who have their message feature enabled. The concussive effect from the explosion will knock the recipient out for a short period, and deafen them for longer. It has a chance to detonate your PDA."
+	desc = "When inserted into a personal digital civilian, this cartridge gives you five opportunities to detonate PDAs of crewmembers who have their message feature enabled. The concussive effect from the explosion will knock the recipient out for a short period, and deafen them for longer. It has a chance to detonate your PDA."
 	item = /obj/item/weapon/cartridge/syndicate
 	cost = 3
 

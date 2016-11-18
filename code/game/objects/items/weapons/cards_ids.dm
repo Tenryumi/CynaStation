@@ -395,7 +395,7 @@
 						to_chat(usr, "Appearance changed to [choice].")
 
 					if("Occupation")
-						var/new_job = sanitize(stripped_input(user,"What job would you like to put on this card?\nChanging occupation will not grant or remove any access levels.","Agent card occupation", "Assistant", MAX_MESSAGE_LEN))
+						var/new_job = sanitize(stripped_input(user,"What job would you like to put on this card?\nChanging occupation will not grant or remove any access levels.","Agent card occupation", "Civilian", MAX_MESSAGE_LEN))
 						if(!Adjacent(user))
 							return
 						src.assignment = new_job
@@ -530,7 +530,7 @@
 	name = "Security ID"
 	registered_name = "Officer"
 	icon_state = "security"
-	desc = "Some say these cards are drowned in the tears of assistants, forged in the burning bodies of clowns."
+	desc = "Some say these cards are drowned in the tears of civilians, forged in the burning bodies of clowns."
 	access = list(access_sec_doors, access_security, access_brig, access_armory, access_forensics_lockers, access_court, access_hos)
 
 /obj/item/weapon/card/id/research

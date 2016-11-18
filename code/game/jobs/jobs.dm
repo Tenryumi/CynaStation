@@ -47,7 +47,7 @@ var/const/ASSISTANT			=(1<<13)
 var/const/TRADER			=(1<<14)
 
 
-var/list/assistant_occupations = list(
+var/list/civilian_occupations = list(
 )
 
 
@@ -100,7 +100,7 @@ var/list/stavery_positions = list(
 	"Chaplain",
 	"Clown",
 	"Mime",
-	"Assistant"
+	"Civilian"
 )
 
 var/list/cargo_positions = list(

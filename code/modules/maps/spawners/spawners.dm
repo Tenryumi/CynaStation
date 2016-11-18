@@ -213,10 +213,10 @@
 		/obj/spacepod/random,
 		)
 
-// Assistants //////////////////////////////////////////////////
+// Civilians //////////////////////////////////////////////////
 
-/obj/map/spawner/assistant/tools
-	name = "assistant tool spawner"
+/obj/map/spawner/civilian/tools
+	name = "civilian tool spawner"
 	icon_state = "ass_tools"
 	amount = 3
 	chance = 50
@@ -261,8 +261,8 @@
 		/obj/item/weapon/storage/toolbox/electrical,
 		)
 
-/obj/map/spawner/assistant/materials
-	name = "assistant materials spawner"
+/obj/map/spawner/civilian/materials
+	name = "civilian materials spawner"
 	icon_state = "ass_materials"
 	amount = 2
 	chance = 50
