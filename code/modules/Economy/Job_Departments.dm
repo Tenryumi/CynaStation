@@ -14,15 +14,6 @@ var/list/station_departments = list("Command", "Alchemy", "Thaumaturgy", "Magery
 
 /datum/job/hp/department = "Poritary"
 /datum/job/os/head_position = 1
-/datum/job/bartender/department = "Stavery"
-/datum/job/chef/department = "Stavery"
-/datum/job/hydro/department = "Stavery"
-/datum/job/janitor/department = "Stavery"
-/datum/job/librarian/department = "Stavery"
-/datum/job/lawyer/department = "Stavery"
-/datum/job/chaplain/department = "Stavery"
-/datum/job/clown/department = "Stavery"
-/datum/job/mime/department = "Stavery"
 
 /datum/job/poritus/department = "Poritary"
 

@@ -354,7 +354,7 @@
 	return
 
 /obj/machinery/media/jukebox/bar
-	department = "Stavery"
+	department = "Civilian"
 	req_access = list(access_bar)
 
 	playlist_id="bar"

@@ -1,5 +1,5 @@
 /obj/mecha/combat/marauder
-	desc = "Heavy-duty, combat exosuit, developed after the Durand model. Rarely found among stavery populations."
+	desc = "Heavy-duty, combat exosuit, developed after the Durand model. Rarely found among civilian populations."
 	name = "Marauder"
 	icon_state = "marauder"
 	initial_icon = "marauder"

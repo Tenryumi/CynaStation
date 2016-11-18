@@ -2,7 +2,7 @@
 /datum/job/bartender
 	title = "Bartender"
 	flag = BARTENDER
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -55,7 +55,7 @@
 /datum/job/chef
 	title = "Chef"
 	flag = CHEF
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -88,7 +88,7 @@
 /datum/job/hydro
 	title = "Botanist"
 	flag = BOTANIST
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 2
@@ -139,7 +139,7 @@
 /datum/job/qm
 	title = "Quartermaster"
 	flag = QUARTERMASTER
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -173,7 +173,7 @@
 /datum/job/cargo_tech
 	title = "Cargo Technician"
 	flag = CARGOTECH
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
@@ -205,7 +205,7 @@
 /datum/job/mining
 	title = "Shaft Miner"
 	flag = MINER
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 3
@@ -246,7 +246,7 @@
 /datum/job/clown
 	title = "Clown"
 	flag = CLOWN
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -293,7 +293,7 @@
 /datum/job/mime
 	title = "Mime"
 	flag = MIME
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -366,7 +366,7 @@
 /datum/job/janitor
 	title = "Janitor"
 	flag = JANITOR
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -397,7 +397,7 @@
 /datum/job/librarian
 	title = "Librarian"
 	flag = LIBRARIAN
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
@@ -429,7 +429,7 @@
 /datum/job/lawyer
 	title = "Internal Affairs Agent"
 	flag = LAWYER
-	department_flag = CIVILIAN
+	department_flag = STAVERY
 	faction = "Station"
 	idtype = /obj/item/weapon/card/id/centcom
 	total_positions = 2

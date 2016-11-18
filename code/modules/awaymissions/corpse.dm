@@ -241,7 +241,7 @@
 
 
 
-///////////Staverys//////////////////////
+///////////Civilians//////////////////////
 
 /obj/effect/landmark/corpse/chef
 	name = "Chef"
@@ -483,8 +483,8 @@
 
 //////////////////Misc Corpses///////////////////////////
 
-/obj/effect/landmark/corpse/stavery //Random corpse!
-	name = "Stavery"
+/obj/effect/landmark/corpse/civilian //Random corpse!
+	name = "Civilian"
 	generate_random_mob_name = 1
 	generate_random_appearance = 1
 	corpsegender = G_BOTH
@@ -518,13 +518,13 @@
 	corpsegender = G_BOTH
 	burn_dmg = 100
 
-/obj/effect/landmark/corpse/stavery/New()
+/obj/effect/landmark/corpse/civilian/New()
 	corpseuniform += existing_typesof(/obj/item/clothing/under/color)
 	corpsehelmet += existing_typesof(/obj/item/clothing/head/soft)
 
 	return ..()
 
-/obj/effect/landmark/corpse/stavery/createCorpse()
+/obj/effect/landmark/corpse/civilian/createCorpse()
 	. = ..()
 
 	var/mob/M = .

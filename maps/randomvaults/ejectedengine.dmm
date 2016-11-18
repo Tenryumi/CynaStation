@@ -288,7 +288,7 @@
 "fB" = (/obj/structure/boulder,/turf/simulated/floor/damaged,/area/vault/ejectedengine/gasstorage)
 "fC" = (/obj/machinery/artifact,/turf/unsimulated/floor/asteroid,/area/vault/ejectedengine/gasstorage)
 "fD" = (/obj/item/bluespace_crystal/flawless,/turf/unsimulated/floor/asteroid,/area/vault/ejectedengine/gasstorage)
-"fE" = (/obj/structure/closet/welded,/obj/effect/landmark/corpse/stavery,/turf/space,/area)
+"fE" = (/obj/structure/closet/welded,/obj/effect/landmark/corpse/civilian,/turf/space,/area)
 "fF" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/r_wall,/area/vault/ejectedengine/gasstorage)
 "fG" = (/obj/structure/crystal,/turf/unsimulated/floor/asteroid,/area/vault/ejectedengine/gasstorage)
 

@@ -402,7 +402,7 @@
 //Old Vox Suits
 /*
 /obj/item/clothing/suit/space/vox/civ/old
-	name = "vox stavery pressure suit"
+	name = "vox civilian pressure suit"
 	desc = "A modernized pressure suit for Vox who've decided to work for the winning team."
 	icon_state = "vox-pressure-normal"
 	item_state = "vox-pressure-normal"
@@ -411,7 +411,7 @@
 	species_restricted = list(VOX_SHAPED)
 
 /obj/item/clothing/head/helmet/space/vox/civ/old
-	name = "vox stavery pressure helmet"
+	name = "vox civilian pressure helmet"
 	icon_state = "vox-pressure-normal"
 	item_state = "vox-pressure-normal"
 	desc = "A very alien-looking helmet for Nanotrasen-hired Vox."
