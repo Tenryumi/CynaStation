@@ -44,7 +44,7 @@
 	
 /obj/item/device/instrument/violin
 	name = "space violin"
-	desc = "A wooden musical instrument with four strings and a bow. \"The devil went down to space, he was looking for an assistant to grief.\""
+	desc = "A wooden musical instrument with four strings and a bow. \"The devil went down to space, he was looking for an civilian to grief.\""
 	icon_state = "violin"
 	item_state = "violin"
 	attack_verb = list("smashed")

@@ -56,14 +56,14 @@
 	user.update_inv_head()
 
 // Tc_ENGINEERING
-/obj/item/clothing/suit/space/plasmaman/assistant
-	name = "plasmaman assistant suit"
-	icon_state = "plasmamanAssistant_suit"
+/obj/item/clothing/suit/space/plasmaman/civilian
+	name = "plasmaman civilian suit"
+	icon_state = "plasmamanCivilian_suit"
 
-/obj/item/clothing/head/helmet/space/plasmaman/assistant
-	name = "plasmaman assistant helmet"
-	icon_state = "plasmamanAssistant_helmet0"
-	base_state = "plasmamanAssistant_helmet"
+/obj/item/clothing/head/helmet/space/plasmaman/civilian
+	name = "plasmaman civilian helmet"
+	icon_state = "plasmamanCivilian_helmet0"
+	base_state = "plasmamanCivilian_helmet"
 
 /obj/item/clothing/suit/space/plasmaman/atmostech
 	name = "plasmaman atmospheric suit"

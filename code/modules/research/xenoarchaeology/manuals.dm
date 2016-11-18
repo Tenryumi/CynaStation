@@ -150,7 +150,7 @@
 
 				<h1><a name="Analysis">Analysis progression</a></h1>
 				Modern mass spectrometry requires constant attention from the diligant researcher in order to be successul. There are many different elements to juggle,
-					and later chapters will delve into them. For the spectrometry assistant, the first thing you need to know is that the scanner wavelength is automatically
+					and later chapters will delve into them. For the spectrometry civilian, the first thing you need to know is that the scanner wavelength is automatically
 					calculated for you. Just tweak the settings and try to match it with the actual wavelength as closely as possible.<br>
 				<br>
 				<a href="#Contents">Contents</a>

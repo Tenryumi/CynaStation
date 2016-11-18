@@ -348,7 +348,7 @@ var ijobNames = {
         221: "securityresponseofficer",
         222: "engineerresponseofficer",
         223: "medicalresponseofficer",
-        999: "assistant"
+        999: "civilian"
 };
 
 

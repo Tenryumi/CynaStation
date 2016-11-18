@@ -36,7 +36,7 @@
 
 /datum/poster/tg_8//37
 	name = "Grey Tide"
-	desc = "A rebellious poster symbolizing assistant solidarity."
+	desc = "A rebellious poster symbolizing civilian solidarity."
 	icon_state="poster8"
 
 /datum/poster/tg_9//38

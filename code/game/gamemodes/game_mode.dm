@@ -212,7 +212,7 @@
 			suspects += man
 	for(var/mob/M in suspects)
 		if(M.mind.assigned_role == "MODE")
-			//intercepttext += "Someone with the job of <b>[pick("Assistant","Station Engineer", "Medical Doctor")]</b> <br>" //Lets just make them not appear at all
+			//intercepttext += "Someone with the job of <b>[pick("Civilian","Station Engineer", "Medical Doctor")]</b> <br>" //Lets just make them not appear at all
 			continue
 		switch(rand(1, 100))
 			if(1 to 50)

@@ -269,7 +269,7 @@
 
 /obj/item/weapon/storage/pill_bottle/random
 	name = "trail mix"
-	desc = "Just what the assistant ordered."
+	desc = "Just what the civilian ordered."
 
 /obj/item/weapon/storage/pill_bottle/random/New()
 	..()

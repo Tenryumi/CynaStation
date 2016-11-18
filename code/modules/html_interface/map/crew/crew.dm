@@ -90,7 +90,7 @@ var/global/datum/interactive_map/crewmonitor/crewmonitor = new
 	jobs["Security Response Officer"] = 221
 	jobs["Engineer Response Officer"] = 222
 	jobs["Medical Response Officer"] = 223
-	jobs["Assistant"] = 999 //Unknowns/custom jobs should appear after civilians, and before assistants
+	jobs["Civilian"] = 999 //Unknowns/custom jobs should appear after civilians, and before civilians
 
 	src.jobs = jobs
 

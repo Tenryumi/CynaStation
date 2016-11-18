@@ -458,7 +458,7 @@ var/const/MAX_SAVE_SLOTS = 8
 			var/available_in_days = job.available_in_days(user.client)
 			HTML += "<font color=red>[rank]</font></td><td><font color=red> \[IN [(available_in_days)] DAYS]</font></td></tr>"
 			continue
-		if((job_stavery_low & CIVILIAN) && (rank != "Assistant"))
+		if((job_stavery_low & CIVILIAN) && (rank != "Civilian"))
 			HTML += "<font color=orange>[rank]</font></td><td></td></tr>"
 			continue
 		if((rank in command_positions) || (rank == "AI"))//Bold head jobs
@@ -519,7 +519,7 @@ var/const/MAX_SAVE_SLOTS = 8
 		HTML += "<a class='white' onmouseup='javascript:return mouseUp(event,[prefUpperLevel],[prefLowerLevel], \"[rank]\");' oncontextmenu='javascript:return mouseDown(event,[prefUpperLevel],[prefLowerLevel], \"[rank]\");'>"
 
 
-		if(rank == "Assistant")//Assistant is special
+		if(rank == "Civilian")//Civilian is special
 			if(job_stavery_low & STAVERY)
 				HTML += " <font color=green>Yes</font>"
 			else
@@ -540,7 +540,7 @@ var/const/MAX_SAVE_SLOTS = 8
 		if(GET_RANDOM_JOB)
 			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Get random job if preferences unavailable</a></center><br>"
 		if(BE_CIVILIAN)
-			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Be assistant if preference unavailable</a></center><br>"
+			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Be civilian if preference unavailable</a></center><br>"
 		if(RETURN_TO_LOBBY)
 			HTML += "<center><br><a href='?_src_=prefs;preference=job;task=random'>Return to lobby if preference unavailable</a></center><br>"
 

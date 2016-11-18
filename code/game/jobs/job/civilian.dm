@@ -11,7 +11,7 @@
 	minimal_access = list()	//See /datum/job/civilian/get_access()
 	alt_titles = list("Alchemical Student","Novice Thaumaturge","Poritary Trainee")
 
-	no_random_roll = 1 //Don't become assistant randomly
+	no_random_roll = 1 //Don't become civilian randomly
 
 /datum/job/civilian/equip(var/mob/living/carbon/human/H)
 	if(!H)

@@ -204,13 +204,13 @@ SOCKET_TALK 0
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 GATEWAY_DELAY 18000
 
-## Remove the # to give assistants maint access.
+## Remove the # to give civilians maint access.
 #CIVILIAN_MAINT
 
-## Remove the # to enable assistant limiting.
+## Remove the # to enable civilian limiting.
 #CIVILIAN_LIMIT
 
-## If you enabled assistant limiting set the ratio of assistants to security members default is 2 assistants to 1 officer
+## If you enabled civilian limiting set the ratio of civilians to security members default is 2 civilians to 1 officer
 CIVILIAN_RATIO 2
 
 ## Remove the # to make rounds which end instantly (Rev, Wizard, Malf) to continue until the shuttle is called or the station is nuked.

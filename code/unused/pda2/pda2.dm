@@ -95,7 +95,7 @@
 /obj/item/device/pda2/attack_self(mob/user as mob)
 	user.machine = src
 
-	var/dat = "<html><head><title>Personal Data Assistant</title></head><body>"
+	var/dat = "<html><head><title>Personal Data Civilian</title></head><body>"
 
 	dat += "<a href='byond://?src=\ref[src];close=1'>Close</a>"
 

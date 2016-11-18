@@ -76,9 +76,9 @@ Example of the second method:
 	file_path = "maps/RandomZLevels/arcticwaste.dmm"
 	desc = "A frozen wasteland with an underground bunker. Features a gateway."
 
-/datum/map_element/away_mission/assistantchamber
-	name = "assistant chamber"
-	file_path = "maps/RandomZLevels/assistantChamber.dmm"
+/datum/map_element/away_mission/civilianchamber
+	name = "civilian chamber"
+	file_path = "maps/RandomZLevels/civilianChamber.dmm"
 	desc = "A tiny unbreachable room full of angry turrets and loot."
 	generate_randomly = 0
 

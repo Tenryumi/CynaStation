@@ -12,7 +12,7 @@ var/global/list/wizard_cards_normal = list(
 	/obj/item/toy/singlecard/wizard/captain,
 	/obj/item/toy/singlecard/wizard/hos,
 	/obj/item/toy/singlecard/wizard/scientist,
-	/obj/item/toy/singlecard/wizard/assistant,
+	/obj/item/toy/singlecard/wizard/civilian,
 	/obj/item/toy/singlecard/wizard/secborg,
 	/obj/item/toy/singlecard/wizard/nukeop,
 	/obj/item/toy/singlecard/wizard/engineer,
@@ -161,10 +161,10 @@ var/global/list/wizard_cards_normal = list(
 	desc = "The scientist is a medium destruction entity. Give it some time to prepare, and you won't be disappointed."
 	cardname = "scientist"
 
-/obj/item/toy/singlecard/wizard/assistant
-	name = "assistant wizard card"
-	desc = "The assistant is a weak chaos entity. What side is it even on? Who knows."
-	cardname = "assistant"
+/obj/item/toy/singlecard/wizard/civilian
+	name = "civilian wizard card"
+	desc = "The civilian is a weak chaos entity. What side is it even on? Who knows."
+	cardname = "civilian"
 
 /obj/item/toy/singlecard/wizard/secborg
 	name = "cyborg wizard card"

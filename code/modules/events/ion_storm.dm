@@ -44,7 +44,7 @@
 	 */
 
 	var/list/il_bio = list("slimes", "spiders", "blobs", "dead bodies", "food items", "monkeys", "humans", "non-humans", "plants", "traitors", "syndicate agents", "vampires", "crewmen", "wizards", "voxes", "ghosts", "corgis", "cats", "parrots", \
-	"chickens", "aliens", "xenomorphs", "skellingtons", "plasmamen", "security officers", "doctors", "chemists", "engineers", "heads of staff", "captains", "gods", "clowns", "mimes", "assistants", "chefs", "chaplains", "librarians", \
+	"chickens", "aliens", "xenomorphs", "skellingtons", "plasmamen", "security officers", "doctors", "chemists", "engineers", "heads of staff", "captains", "gods", "clowns", "mimes", "civilians", "chefs", "chaplains", "librarians", \
 	"janitors", "chief medical officers", "heads of security", "heads of personnel", "research directors", "chief engineers", "atmospheric technicians", "detectives", "quartermasters", "cargo technicians", "miners", "scientists", "potted plants")
 
 	var/list/il_bio_desc = list("dead", "alive", "human", "non-human", "crew", "non-crew", "dangerous", "harmful", "hazardous", "safe", "helpful", "non-existent", "existent", "traitorous", "loyal", "implanted", \
