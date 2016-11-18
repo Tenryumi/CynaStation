@@ -21,8 +21,8 @@
 //POD ARMOUR
 
 /datum/design/pod_armor_civ
-	name = "Pod Armor (civilian)"
-	desc = "Allows for the construction of spacepod armor. This is the civilian version."
+	name = "Pod Armor (stavery)"
+	desc = "Allows for the construction of spacepod armor. This is the stavery version."
 	id = "podarmor_civ"
 	build_type = PODFAB
 	req_tech = list(Tc_MATERIALS = 3, Tc_PLASMATECH = 3)

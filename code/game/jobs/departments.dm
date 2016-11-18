@@ -1,1 +1,1 @@
-var/list/departments = list("Command", "Alchemy", "Thaumaturgy", "Poritus", "Stavery", "Trannelus")
+var/list/departments = list("Command", "Medical", "Engineering", "Security", "Stavery", "Cargo")

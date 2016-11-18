@@ -153,7 +153,7 @@
 			even = !even
 
 	if(civ.len > 0)
-		dat += "<tr><th colspan=3>Civilian</th></tr>"
+		dat += "<tr><th colspan=3>Stavery</th></tr>"
 		for(name in civ)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[civ[name]]</td><td>[isactive[name]]</td></tr>"
 			even = !even

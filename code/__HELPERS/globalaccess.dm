@@ -991,6 +991,8 @@
 			return global.all_jobs;
 		if("job_master")
 			return global.job_master;
+		if("civilian_occupations")
+			return global.civilian_occupations;
 		if("command_positions")
 			return global.command_positions;
 		if("thaumaturgy_positions")

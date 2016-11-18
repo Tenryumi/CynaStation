@@ -520,7 +520,7 @@ var/const/MAX_SAVE_SLOTS = 8
 
 
 		if(rank == "Civilian")//Civilian is special
-			if(job_stavery_low & STAVERY)
+			if(job_stavery_low & CIVILIAN)
 				HTML += " <font color=green>Yes</font>"
 			else
 				HTML += " <font color=red>No</font>"

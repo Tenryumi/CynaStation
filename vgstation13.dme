@@ -377,6 +377,7 @@
 #include "code\game\jobs\jobs.dm"
 #include "code\game\jobs\whitelist.dm"
 #include "code\game\jobs\job\civilian.dm"
+#include "code\game\jobs\job\civilian.dm"
 #include "code\game\jobs\job\headmaster.dm"
 #include "code\game\jobs\job\job.dm"
 #include "code\game\jobs\job\stavery.dm"
