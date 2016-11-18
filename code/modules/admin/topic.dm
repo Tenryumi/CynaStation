@@ -770,11 +770,11 @@
 				counter = 0
 		jobs += "</tr></table>"
 
-	//Civilian (Grey)
+	//Stavery (Grey)
 		counter = 0
 		jobs += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		jobs += "<tr bgcolor='dddddd'><th colspan='[length(civilian_positions)]'><a href='?src=\ref[src];jobban3=civiliandept;jobban4=\ref[M]'>Civilian Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in civilian_positions)
+		jobs += "<tr bgcolor='dddddd'><th colspan='[length(stavery_positions)]'><a href='?src=\ref[src];jobban3=staverydept;jobban4=\ref[M]'>Stavery Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in stavery_positions)
 			if(!jobPos)
 				continue
 			var/datum/job/job = job_master.GetJob(jobPos)
@@ -1014,8 +1014,8 @@
 					if(!temp)
 						continue
 					joblist += temp.title
-			if("civiliandept")
-				for(var/jobPos in civilian_positions)
+			if("staverydept")
+				for(var/jobPos in stavery_positions)
 					if(!jobPos)
 						continue
 					var/datum/job/temp = job_master.GetJob(jobPos)

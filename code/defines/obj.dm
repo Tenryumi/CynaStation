@@ -108,7 +108,7 @@
 		if(real_rank in cargo_positions)
 			cgo[name] = rank
 			department = 1
-		if(real_rank in civilian_positions)
+		if(real_rank in stavery_positions)
 			civ[name] = rank
 			department = 1
 		if(real_rank in nonhuman_positions)
@@ -153,7 +153,7 @@
 			even = !even
 
 	if(civ.len > 0)
-		dat += "<tr><th colspan=3>Civilian</th></tr>"
+		dat += "<tr><th colspan=3>Stavery</th></tr>"
 		for(name in civ)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[civ[name]]</td><td>[isactive[name]]</td></tr>"
 			even = !even
@@ -243,7 +243,7 @@ var/global/list/PDA_Manifest = list()
 			if(depthead && cgo.len != 1)
 				cgo.Swap(1,cgo.len)
 
-		if(real_rank in civilian_positions)
+		if(real_rank in stavery_positions)
 			civ[++civ.len] = list("name" = name, "rank" = rank, "active" = isactive)
 			department = 1
 			if(depthead && civ.len != 1)

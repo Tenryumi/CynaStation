@@ -89,7 +89,7 @@ var/list/science_positions = list(
 )
 
 //BS12 EDIT
-var/list/civilian_positions = list(
+var/list/stavery_positions = list(
 	"Head of Personnel",
 	"Bartender",
 	"Botanist",

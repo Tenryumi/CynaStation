@@ -123,7 +123,7 @@
 	link_angle = 270
 
 /obj/item/pod_parts/armor
-	name = "civilian pod armor"
+	name = "stavery pod armor"
 	icon = 'icons/pods/pod_parts.dmi'
 	icon_state = "pod_armor_civ"
-	desc = "Spacepod armor. This is the civilian version. It looks rather flimsy."
+	desc = "Spacepod armor. This is the stavery version. It looks rather flimsy."

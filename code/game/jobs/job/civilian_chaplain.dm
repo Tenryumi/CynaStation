@@ -1,4 +1,4 @@
-//Due to how large this one is, it gets its own file from civilian.dm
+//Due to how large this one is, it gets its own file from stavery.dm
 /datum/job/chaplain
 	title = "Chaplain"
 	flag = CHAPLAIN

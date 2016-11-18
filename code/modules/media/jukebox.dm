@@ -624,7 +624,7 @@ var/global/list/loopModeNames=list(
 	return
 
 /obj/machinery/media/jukebox/bar
-	department = "Civilian"
+	department = "Stavery"
 	req_access = list(access_bar)
 
 	playlist_id="bar"

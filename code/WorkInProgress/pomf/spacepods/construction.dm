@@ -31,7 +31,7 @@
 // CONSTRUCTION STEPS
 /////////////////////////////////
 /datum/construction/reversible/pod
-	result = /obj/spacepod/civilian
+	result = /obj/spacepod/stavery
 	//taskpath = /datum/job_objective/make_pod
 	steps = list(
 				// 12. Bolted-down armor

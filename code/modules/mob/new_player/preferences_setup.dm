@@ -237,14 +237,14 @@
 
 	if(!for_observer)
 		// Commenting this check so that, if all else fails, the preview icon is never naked. - N3X
-		//if(job_civilian_low & ASSISTANT) //This gives the preview icon clothes depending on which job(if any) is set to 'high'
+		//if(job_stavery_low & ASSISTANT) //This gives the preview icon clothes depending on which job(if any) is set to 'high'
 		clothes_s = new /icon(uniform_dmi, "grey_s")
 		clothes_s.Blend(new /icon(feet_dmi, "black"), ICON_UNDERLAY)
 		clothes_s=blend_backpack(clothes_s,backbag,"satchel-norm")
 
 		//else
-		if(job_civilian_high)//I hate how this looks, but there's no reason to go through this switch if it's empty
-			switch(job_civilian_high)
+		if(job_stavery_high)//I hate how this looks, but there's no reason to go through this switch if it's empty
+			switch(job_stavery_high)
 				if(HOP)
 					clothes_s = new /icon(uniform_dmi, "hop_s")
 					clothes_s.Blend(new /icon(feet_dmi, "brown"), ICON_UNDERLAY)

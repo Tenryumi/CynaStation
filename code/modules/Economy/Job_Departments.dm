@@ -1,4 +1,4 @@
-var/list/station_departments = list("Command", "Medical", "Engineering", "Science", "Security", "Cargo", "Civilian")
+var/list/station_departments = list("Command", "Medical", "Engineering", "Science", "Security", "Cargo", "Stavery")
 
 // The department the job belongs to.
 /datum/job/var/department = null
@@ -9,28 +9,28 @@ var/list/station_departments = list("Command", "Medical", "Engineering", "Scienc
 /datum/job/captain/department = "Command"
 /datum/job/captain/head_position = 1
 
-/datum/job/hop/department = "Civilian"
+/datum/job/hop/department = "Stavery"
 /datum/job/hop/head_position = 1
 
-/datum/job/assistant/department = "Civilian"
+/datum/job/assistant/department = "Stavery"
 
-/datum/job/bartender/department = "Civilian"
+/datum/job/bartender/department = "Stavery"
 
-/datum/job/chef/department = "Civilian"
+/datum/job/chef/department = "Stavery"
 
-/datum/job/hydro/department = "Civilian"
+/datum/job/hydro/department = "Stavery"
 
-/datum/job/janitor/department = "Civilian"
+/datum/job/janitor/department = "Stavery"
 
-/datum/job/librarian/department = "Civilian"
+/datum/job/librarian/department = "Stavery"
 
-/datum/job/lawyer/department = "Civilian"
+/datum/job/lawyer/department = "Stavery"
 
-/datum/job/chaplain/department = "Civilian"
+/datum/job/chaplain/department = "Stavery"
 
-/datum/job/clown/department = "Civilian"
+/datum/job/clown/department = "Stavery"
 
-/datum/job/mime/department = "Civilian"
+/datum/job/mime/department = "Stavery"
 
 /datum/job/qm/department = "Cargo"
 /datum/job/qm/head_position = 1

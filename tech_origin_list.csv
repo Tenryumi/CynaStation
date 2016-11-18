@@ -218,7 +218,7 @@ Atom,Name,biotech,bluespace,bluespace ,combat,engineering,magnets,materials,plas
 /obj/item/organ/brain,"brain",3,,,,,,,,,,,,
 /obj/item/organ/brain/mami,"Machine-Man Interface",4,,,,,,,,,,,4,
 /obj/item/pod_parts,"mecha part",,,,,,,2,,,,,2,
-/obj/item/pod_parts/armor,"civilian pod armor",,,,,,,2,,,,,2,
+/obj/item/pod_parts/armor,"stavery pod armor",,,,,,,2,,,,,2,
 /obj/item/pod_parts/core,"Space Pod Core",,2,,,3,,4,3,,,,,
 /obj/item/pod_parts/pod_frame,"Space Pod Frame",,,,,,,2,,,,,2,
 /obj/item/pod_parts/pod_frame/aft_port,"aft port pod frame",,,,,,,2,,,,,2,
@@ -653,7 +653,7 @@ Atom,Name,biotech,bluespace,bluespace ,combat,engineering,magnets,materials,plas
 /obj/item/weapon/gun/projectile/flare,"flare gun",,,,2,,,2,,,,,,
 /obj/item/weapon/gun/projectile/flare/syndicate,"flare gun",,,,4,,,2,,,,,,2
 /obj/item/weapon/gun/projectile/gyropistol,"gyrojet pistol",,,,3,,,,,,,,,
-/obj/item/weapon/gun/projectile/hecate,"\improper PGM Hécate II",,,,6,,,5,,,,,,
+/obj/item/weapon/gun/projectile/hecate,"\improper PGM Hï¿½cate II",,,,6,,,5,,,,,,
 /obj/item/weapon/gun/projectile/mateba,"mateba",,,,2,,,2,,,,,,
 /obj/item/weapon/gun/projectile/nagant,"mosin nagant",,,,4,,,2,,,,,,
 /obj/item/weapon/gun/projectile/nagant/obrez,"obrez",,,,4,,,2,,,,,,
