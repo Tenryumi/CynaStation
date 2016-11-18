@@ -458,7 +458,7 @@ var/const/MAX_SAVE_SLOTS = 8
 			var/available_in_days = job.available_in_days(user.client)
 			HTML += "<font color=red>[rank]</font></td><td><font color=red> \[IN [(available_in_days)] DAYS]</font></td></tr>"
 			continue
-		if((job_stavery_low & CIVILIAN) && (rank != "Civilian"))
+		if((job_stavery_low & CIVILIAN) && (rank != "Stavery"))
 			HTML += "<font color=orange>[rank]</font></td><td></td></tr>"
 			continue
 		if((rank in command_positions) || (rank == "AI"))//Bold head jobs
@@ -520,7 +520,7 @@ var/const/MAX_SAVE_SLOTS = 8
 
 
 		if(rank == "Civilian")//Civilian is special
-			if(job_stavery_low & STAVERY)
+			if(job_stavery_low & CIVILIAN)
 				HTML += " <font color=green>Yes</font>"
 			else
 				HTML += " <font color=red>No</font>"
