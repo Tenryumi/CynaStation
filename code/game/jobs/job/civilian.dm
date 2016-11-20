@@ -9,7 +9,7 @@
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/civilian/get_access()
 	minimal_access = list()	//See /datum/job/civilian/get_access()
-	alt_titles = list("Alchemical Student","Novice Thaumaturge","Poritary Trainee")
+	alt_titles = list("Alchemical Student","Novice Thaumaturge","Poritary Trainee","Staff Assistant")
 
 	no_random_roll = 1 //Don't become civilian randomly
 
