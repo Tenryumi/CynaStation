@@ -5,7 +5,9 @@ This is a project that I am undoubtedly going to be on and off of.
 # CONTRIBUTING:
 If you wish to contribute to CynaStation's development, go on ahead and make a PR, or if you only want to submit ideas, refer to Issues to submit your idea!
 
-[PLEASE look at our wiki to refer to our plans! You don't have to help with this, but it'd be appreciated if you did!](https://github.com/Yewmi/CynaStation/wiki)
+- [PLEASE look at our GitHub Wiki to refer to our plans! You don't have to help with this, but it'd be appreciated if you did!](https://github.com/Yewmi/CynaStation/wiki)
+
+- [If you just want to contribute **sprites**, make PRs here!](https://github.com/Yewmi/CynaSPRITES/tree/master)
 
 ## What the FUCK is a CynaStation?
 CynaStation is an idea I've had brooding in my mind for months now, but has had no place to call a home. I have always had a vehement adoration for magic, and an... indifference, towards sci-fi. Space Station 13 offers a control scheme and medium perfect for what I want to bring to life as a game. With my experiences with this game and the myriad of ideas I have, I wish to make a game that truly stands out amongst the other SS13 games. /tg/ station, Goonstation, etc. They all have a running theme of science fiction, of pushing the boundaries of technology and the limits of how absurdly advanced technology can get. However, there's another area of fantasy that has only barely been touched... magic. 
