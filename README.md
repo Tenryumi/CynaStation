@@ -16,8 +16,5 @@ I have played the game for a long time now, and quickly discovered that of all t
 
 This is only one of the possible ways to play as this antagonist. The versatility and absurdity of the wizard's powers is something that I want to make a fully-fledged spin-off from, combining both technology and magic in a way that they seamlessly meld together. Along with this, I wish to create a world and society similar, but different to that of Space Station 13.
 
-### INSPIRATIONS:
-Harry Potter, Eragon, Beyonders, The Elder Scrolls, World of Warcraft, Dark Souls, the Legend of Zelda.
-
 # THANK YOU SO MUCH TO:
-- The beloved monsters working on /tg/station and /vg/station for providing access to their respective codebases 
+- The beloved monsters working on /tg/station and /vg/station for providing access to their respective codebases.
